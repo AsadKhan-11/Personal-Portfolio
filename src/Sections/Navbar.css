@@ -1,0 +1,31 @@
+.navbar {
+  height: 70px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo {
+  background: linear-gradient(90deg, rgb(92, 92, 92), rgb(163, 163, 163));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: cursive;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: end;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+a:hover {
+  color: rgb(124, 124, 124);
+}
