@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   background-color: rgb(15, 15, 15);
-  box-shadow: 0px 50px 30px 1px black;
+  /* box-shadow: 0px 50px 10px 1px rgb(19, 19, 19); */
+  overflow: hidden;
   position: relative;
   /* background-image: url("../images/Background.jpg");
   background-repeat: no-repeat;
@@ -13,14 +14,14 @@
 }
 .hero-img {
   height: 100%;
-  filter: drop-shadow(30px 10px 4px rgb(14, 14, 14));
+  filter: drop-shadow(30px 10px 4px rgb(8, 8, 8));
 }
 .hero-name {
   font-size: 98px;
   position: absolute;
   left: 60px;
   top: 120px;
-  background: linear-gradient(90deg, rgb(71, 71, 71), rgb(163, 163, 163));
+  background: linear-gradient(90deg, rgb(58, 58, 58), rgb(190, 190, 190));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: normal 2s name;
@@ -35,7 +36,7 @@
   position: absolute;
   right: 10px;
   top: 200px;
-  background: linear-gradient(20deg, rgb(112, 111, 111), rgb(7, 156, 7));
+  background: linear-gradient(20deg, rgb(112, 111, 111), rgb(73, 251, 53));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: normal 2s prof;
