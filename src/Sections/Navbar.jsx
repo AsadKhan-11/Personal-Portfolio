@@ -11,6 +11,8 @@ function Navbar() {
           <a href="#">Projects</a>
           <a href="#">Skills</a>
         </nav>
+
+        <button className="contact">Contact me</button>
       </nav>
     </>
   );

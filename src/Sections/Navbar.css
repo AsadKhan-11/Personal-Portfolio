@@ -1,10 +1,11 @@
 .navbar {
   height: 70px;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(15, 15, 15);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  z-index: 1;
 }
 .logo {
   background: linear-gradient(90deg, rgb(92, 92, 92), rgb(163, 163, 163));
@@ -18,6 +19,24 @@
   gap: 50px;
   align-items: center;
   justify-content: end;
+  animation: normal 3s links;
+  opacity: 1;
+}
+
+.contact {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(32, 133, 32);
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-image: linear-gradient(90deg, rgb(105, 105, 105), rgb(7, 133, 7));
 }
 
 a {
@@ -28,4 +47,12 @@ a {
 
 a:hover {
   color: rgb(124, 124, 124);
+  background: linear-gradient(rgb(114, 114, 114), rgb(7, 192, 7));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes links {
+  0% {
+    opacity: 0;
+  }
 }

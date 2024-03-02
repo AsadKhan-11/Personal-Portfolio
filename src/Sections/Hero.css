@@ -3,12 +3,12 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-
+  background-color: rgb(15, 15, 15);
   box-shadow: 0px 50px 30px 1px black;
   position: relative;
-  background-image: url("../images/Background.jpg");
+  /* background-image: url("../images/Background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* mix-blend-mode: difference; */
 }
 .hero-img {
@@ -23,6 +23,7 @@
   background: linear-gradient(90deg, rgb(71, 71, 71), rgb(163, 163, 163));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: normal 2s name;
 }
 
 .hero-s-name {
@@ -37,8 +38,21 @@
   background: linear-gradient(20deg, rgb(112, 111, 111), rgb(7, 156, 7));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: normal 2s prof;
 }
 
 .profession-s-name {
   margin-left: 100px;
+}
+
+@keyframes name {
+  0% {
+    left: -400px;
+  }
+}
+
+@keyframes prof {
+  0% {
+    right: -500px;
+  }
 }
