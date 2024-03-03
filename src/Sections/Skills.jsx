@@ -5,16 +5,15 @@ function Skills() {
   return (
     <>
       <section id="skills" className="skills">
-        <div className="skill-txt-container">
-          <h1 className="skill-header">My Skills</h1>
-          <p className="skill-txt">
-            I'm a front-end developer skilled in creating responsive websites
-            using HTML, CSS, JavaScript, and React. I turn design ideas into
-            user-friendly interfaces, ensuring they work well on any device.
-            With attention to detail and a love for the latest trends, I bring
-            both creativity and technical know-how to my projects.
-          </p>
-        </div>
+        <h1 className="skill-header">Expertise</h1>
+        <h1 className="skill-sec-header">My Skills</h1>
+        <p className="skill-txt">
+          I'm a front-end developer skilled in creating responsive websites
+          using HTML, CSS, JavaScript, and React. I turn design ideas into
+          user-friendly interfaces, ensuring they work well on any device. With
+          attention to detail and a love for the latest trends, I bring both
+          creativity and technical know-how to my projects.
+        </p>
 
         <div className="skills-container">
           <div title="html" className="skill-icons">
