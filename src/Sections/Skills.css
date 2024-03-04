@@ -14,7 +14,7 @@
   padding: 120px 50px;
   border-radius: 20px;
   line-height: 1.5;
-  animation: normal 3s txt;
+  /* animation: normal 3s txt; */
 
   background-color: rgb(28, 28, 28);
 }
@@ -83,15 +83,6 @@
 .skill-icons svg {
   height: 50px;
   width: 50px;
-}
-
-@keyframes header {
-  0% {
-    margin-left: -250px;
-  }
-  100% {
-    margin-left: 0px;
-  }
 }
 
 @keyframes txt {

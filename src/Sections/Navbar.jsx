@@ -12,7 +12,7 @@ function Navbar() {
           <a href="#">Skills</a>
         </nav>
 
-        <button className="contact">Contact me</button>
+        <button className="contact-btn">Contact me</button>
       </nav>
     </>
   );
