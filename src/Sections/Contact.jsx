@@ -26,7 +26,7 @@ function Contact() {
               <input type="email" className="contact-info" required />
             </div>
             <div className="full-first">
-              <label htmlFor="description">Description</label>
+              <label htmlFor="description">Message</label>
               <input type="text" className="contact-info" />
             </div>
           </div>

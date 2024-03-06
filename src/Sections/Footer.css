@@ -31,7 +31,6 @@
     rgb(177, 177, 177) 30%,
     rgb(98, 158, 92) 50%
   );
-  /* filter: drop-shadow(0 0 20px rgb(167, 167, 167)); */
 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,4 +61,26 @@
   box-shadow: 0 0 200px 80px rgb(156, 247, 146);
   right: 50%;
   animation: light 2s normal;
+}
+
+.footer-reserve {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  fill: rgb(7, 7, 7);
+}
+
+a.fiverr:hover {
+  fill: rgb(25, 173, 25);
+  transition: ease-in 1s;
+}
+a.github:hover {
+  fill: white;
+  transition: ease-in 1s;
+}
+:where(a.linkedin, .instagram):hover {
+  transition: ease-in 1s;
+  fill: white;
 }
