@@ -27,11 +27,11 @@ function Contact() {
             </div>
             <div className="full-first">
               <label htmlFor="description">Description</label>
-
               <input type="text" className="contact-info" />
-
-              <button className="submit">Subimit</button>
             </div>
+          </div>
+          <div className="sub-btn">
+            <input type="submit" className="submit contact-info" />
           </div>
         </form>
       </section>

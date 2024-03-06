@@ -54,6 +54,7 @@
   top: 45%;
   right: 0%;
   box-shadow: 0px 0px 200px 80px rgb(156, 247, 146);
+  animation: light 2s normal;
 }
 
 .skills::before {
@@ -62,6 +63,7 @@
   top: 45%;
   left: 0%;
   box-shadow: 0 0 200px 80px rgb(156, 247, 146);
+  animation: light 2s normal;
 }
 
 .skill-icons {

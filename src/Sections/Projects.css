@@ -4,7 +4,7 @@
   top: 30%;
   left: 50%;
   box-shadow: 0 0 400px 100px rgb(156, 247, 146);
-  animation: 2s normal project;
+  animation: 2s normal light;
 }
 
 .project {
@@ -41,13 +41,4 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
-}
-
-@keyframes project {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }

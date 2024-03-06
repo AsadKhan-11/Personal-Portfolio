@@ -29,16 +29,35 @@
 .contact {
   height: 100vh;
 }
+
 #contact-form {
   display: flex;
   flex-direction: column;
-  height: 550px;
-  width: 650px;
+  height: 450px;
+  width: 600px;
   margin: 0 auto;
   gap: 40px;
   border: 1px solid rgb(94, 94, 94);
   border-radius: 12px;
   padding: 30px 20px;
+  position: relative;
+}
+#contact-form::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: -270px;
+  box-shadow: 0px 0px 200px 80px rgb(156, 247, 146);
+  animation: light 2s normal;
+}
+
+#contact-form::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: -270px;
+  box-shadow: 0 0 200px 80px rgb(156, 247, 146);
+  animation: light 2s normal;
 }
 
 .contact-info {
@@ -84,5 +103,36 @@ input {
 }
 
 .mail-info input {
-  width: 600px;
+  width: 500px;
+}
+
+.submit {
+  background: linear-gradient(
+    to right,
+    rgb(61, 100, 56) 10%,
+    rgb(23, 192, 23) 90%
+  );
+  width: 150px;
+  cursor: pointer;
+}
+.submit:hover {
+  background: linear-gradient(
+    to right,
+    rgb(70, 107, 66) 10%,
+    rgb(26, 155, 26) 90%
+  );
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes light {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
