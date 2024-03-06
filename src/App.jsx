@@ -4,6 +4,7 @@ import Hero from "./Sections/Hero";
 import Skills from "./Sections/Skills";
 import Projects from "./Sections/Projects";
 import Contact from "./Sections/Contact";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
