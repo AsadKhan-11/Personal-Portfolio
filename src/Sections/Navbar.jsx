@@ -7,12 +7,20 @@ function Navbar() {
         <h1 className="logo">ASAD</h1>
 
         <nav className="links">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Skills</a>
+          <a href="#" className="nav-link">
+            About
+          </a>
+          <a href="#" className="nav-link">
+            Projects
+          </a>
+          <a href="#" className="nav-link">
+            Skills
+          </a>
         </nav>
 
-        <button className="contact-btn">Contact me</button>
+        <a href="#contact-form" className="contact-btn">
+          Contact me
+        </a>
       </nav>
     </>
   );

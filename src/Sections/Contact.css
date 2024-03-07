@@ -110,14 +110,16 @@ input {
 }
 
 .submit {
-  background: linear-gradient(to right, rgb(145, 201, 138), rgb(79, 196, 79));
+  background: linear-gradient(to right, rgb(76, 196, 86), rgb(32, 180, 32));
   width: 150px;
   cursor: pointer;
   border: none;
-  color: black;
+  font-size: 18px;
+  color: rgb(53, 53, 53);
+  transition: all 1s;
 }
 .submit:hover {
-  background: linear-gradient(to right, rgb(103, 182, 94), rgb(48, 196, 48));
+  background: linear-gradient(to right, rgb(101, 168, 91), rgb(35, 155, 35));
   transition: all 1s;
   color: white;
 }
