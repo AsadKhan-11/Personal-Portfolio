@@ -77,7 +77,10 @@ function Footer() {
               </svg>
             </div>
           </a>
-          <a href="#" className="instagram">
+          <a
+            href="https://www.instagram.com/asadkhan._.1/"
+            className="instagram"
+          >
             <div className="footer-icons">
               <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
