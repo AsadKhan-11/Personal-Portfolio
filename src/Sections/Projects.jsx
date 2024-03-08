@@ -13,6 +13,9 @@ function Projects() {
           <h1 className="project-sec-header">MY WORK</h1>
         </div>
 
+        <button className="arr-btn prev-btn">&larr;</button>
+        <button className="arr-btn next-btn">&rarr;</button>
+
         <div className="project-container current-slide">
           <img src={youtube} className="project-img " />
           <h3 className="project-name">Youtube Clone</h3>
