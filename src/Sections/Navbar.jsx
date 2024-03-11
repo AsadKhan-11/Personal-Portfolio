@@ -7,14 +7,14 @@ function Navbar() {
         <h1 className="logo">ASAD</h1>
 
         <nav className="links">
-          <a href="#about" className="nav-link">
+          <a href="#about-me" className="nav-link">
             About
-          </a>
-          <a href="#projects" className="nav-link">
-            Projects
           </a>
           <a href="#skills" className="nav-link">
             Skills
+          </a>
+          <a href="#projects" className="nav-link">
+            Projects
           </a>
         </nav>
 

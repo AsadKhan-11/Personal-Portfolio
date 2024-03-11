@@ -5,8 +5,11 @@ import player from "../projects/player.png";
 import calculator from "../projects/calculator.png";
 import news from "../projects/news.png";
 import omnifood from "../projects/omnifood.png";
+import weather from "../projects/weather.png";
 
 const data = [
+  { name: "News App", img: `${news}` },
+  { name: "Weather Forecaster", img: `${weather}` },
   {
     name: "Youtube Clone",
     img: `${youtube}`,
@@ -16,7 +19,6 @@ const data = [
     img: `${player}`,
   },
   { name: "Calculator", img: `${calculator}` },
-  { name: "News App", img: `${news}` },
   { name: "Omnifood", img: `${omnifood}` },
 ];
 
@@ -40,7 +42,7 @@ function Projects() {
   return (
     <>
       <section className="project" id="projects">
-        <div className="sec-projects">
+        <div className="projects-container">
           <div className="header-txt">
             <h1 className="project-header">PROJECTS</h1>
             <h1 className="project-sec-header">MY WORK</h1>

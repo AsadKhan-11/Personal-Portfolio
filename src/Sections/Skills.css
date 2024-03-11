@@ -1,23 +1,27 @@
 .skills {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.skills-container {
   margin: 100px 40px;
   display: flex;
   flex-direction: column;
-  gap: 140px;
+  gap: 100px;
   align-items: center;
-  position: relative;
 }
 
 .skill-txt {
   color: white;
   font-size: 24px;
-  width: 700px;
-  padding: 120px 50px;
+  width: 900px;
+
   border-radius: 20px;
   line-height: 1.5;
-  background-color: rgb(28, 28, 28);
 }
 
-.skills-container {
+.skills-box {
   width: 900px;
   margin: 20px auto;
   display: flex;
@@ -32,15 +36,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .skill-sec-header {
   position: absolute;
-  top: 45px;
-  left: 42%;
+  top: 37%;
+  left: 30%;
   background: linear-gradient(to right, rgb(161, 161, 161), rgb(73, 251, 53));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: transparent;
+
   font-size: 40px;
 }
 

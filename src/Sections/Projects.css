@@ -7,8 +7,8 @@
   animation: 2s normal light;
 }
 
-.sec-projects {
-  margin: 100px auto;
+.projects-container {
+  margin: 0 auto;
   width: 500px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .project-container {
-  margin: 200px 0 100px;
+  margin: 100px 0 100px;
   font-size: 24px;
   width: 500px;
   height: 400px;

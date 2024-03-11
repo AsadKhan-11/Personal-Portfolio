@@ -11,7 +11,7 @@
 .contact-sec-header {
   position: absolute;
   top: 35px;
-  left: 40%;
+  left: 38%;
   background: linear-gradient(
     to right,
     rgb(177, 177, 177) 10%,
@@ -19,6 +19,8 @@
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: transparent;
+
   font-size: 40px;
 }
 
@@ -29,7 +31,7 @@
 .contact {
   height: 100%;
   position: relative;
-  margin: 100px 40px;
+  margin: 50px 40px;
 }
 
 #contact-form {
