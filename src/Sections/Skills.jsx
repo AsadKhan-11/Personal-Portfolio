@@ -18,7 +18,7 @@ function Skills() {
             both creativity and technical know-how to my projects.
           </p>
 
-          <div className="skills-box">
+          <div className="skills-box" title="html">
             <div title="html" className="skill-icons">
               {" "}
               <svg
@@ -44,7 +44,7 @@ function Skills() {
                 ></path>
               </svg>
             </div>
-            <div className="skill-icons">
+            <div className="skill-icons" title="css">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -68,7 +68,7 @@ function Skills() {
                 ></path>
               </svg>
             </div>
-            <div className="skill-icons">
+            <div className="skill-icons" title="Javascript">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -84,7 +84,7 @@ function Skills() {
                 ></path>
               </svg>
             </div>
-            <div className="skill-icons">
+            <div className="skill-icons" title="React">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -129,7 +129,7 @@ function Skills() {
                 </g>
               </svg>
             </div>
-            <div className="skill-icons">
+            <div className="skill-icons" title="Bootstrap">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -160,7 +160,7 @@ function Skills() {
                 ></path>
               </svg>
             </div>
-            <div className="skill-icons">
+            <div className="skill-icons" title="Tailwind">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"

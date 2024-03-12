@@ -8,8 +8,8 @@
 }
 
 .projects-container {
-  margin: 0 auto;
-  width: 500px;
+  margin: 0 40px;
+  width: 100%;
 }
 
 .project {
@@ -36,7 +36,7 @@
 .project-sec-header {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 43%;
   background: linear-gradient(
     to right,
     rgb(177, 177, 177) 10%,
@@ -57,10 +57,10 @@
 }
 
 .project-container {
-  margin: 100px 0 100px;
+  margin: 100px 0;
   font-size: 24px;
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  height: 300px;
   border-radius: 20px;
   color: white;
   flex-direction: column;
@@ -71,9 +71,12 @@
 }
 
 .all-projects {
+  margin: 100px auto;
   display: flex;
-  width: 100%;
-  gap: 80px;
+  width: 700px;
+  gap: 70px;
+  overflow-x: scroll;
+  background-color: aqua;
 }
 
 .project-img:hover {
@@ -93,12 +96,12 @@
 
 .arr-btn {
   position: absolute;
-  height: 100%;
-  width: 100px;
-
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
   border: none;
   cursor: pointer;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(17, 17, 17);
   color: rgb(55, 160, 43);
   font-size: 40px;
 }
@@ -110,11 +113,11 @@
 }
 
 .prev-btn {
-  top: 0%;
-  left: 0%;
+  top: 45%;
+  left: 20%;
 }
 
 .next-btn {
-  top: 0%;
-  right: 0%;
+  top: 45%;
+  right: 20%;
 }

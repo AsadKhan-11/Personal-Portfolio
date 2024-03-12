@@ -55,13 +55,7 @@ function Projects() {
           </button>
           <div className="all-projects">
             {data.map((d, num) => (
-              <div
-                key={num}
-                className="project-container "
-                style={{
-                  display: num === index ? "flex" : "none",
-                }}
-              >
+              <div key={num} className="project-container ">
                 <img src={d.img} className="project-img " />
                 <h3 className="project-name">{d.name}</h3>
               </div>
