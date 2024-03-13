@@ -1,8 +1,46 @@
+@media (max-width: 600px) {
+  .hero-name {
+    font-size: 36px;
+
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    animation: normal 2s name;
+  }
+
+  .hero-s-name {
+    margin-left: 30px;
+  }
+
+  .hero-img {
+    height: 400px;
+    animation: normal 3s links;
+  }
+
+  .hero-container {
+    max-width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .profession-name {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    animation: normal 2s prof;
+  }
+}
+
 @media (max-width: 800px) and (min-width: 600px) {
   .hero-name {
     font-size: 50px;
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 150px;
     animation: normal 2s name;
   }
@@ -109,7 +147,7 @@
   }
 }
 
-@media (max-width: 2000px) and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .hero-img {
     height: 700px;
     animation: normal 3s links;
