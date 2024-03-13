@@ -1,22 +1,123 @@
+@media (max-width: 600px) {
+  .about-container {
+    gap: 50px;
+    margin: 50px 20px;
+  }
+
+  .about-txt {
+    font-size: 18px;
+  }
+
+  .about-header {
+    font-size: 54px;
+  }
+
+  .about-sec-header {
+    top: 28%;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .about-container {
+    gap: 50px;
+    margin: 50px 20px;
+  }
+
+  .about-txt {
+    font-size: 20px;
+  }
+
+  .about-header {
+    font-size: 66px;
+  }
+
+  .about-sec-header {
+    top: 30%;
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  .about-container {
+    gap: 50px;
+    margin: 50px 20px;
+  }
+
+  .about-txt {
+    font-size: 24px;
+  }
+
+  .about-header {
+    font-size: 72px;
+  }
+
+  .about-sec-header {
+    top: 26%;
+    text-align: center;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .about-container {
+    gap: 50px;
+    margin: 100px 40px;
+  }
+
+  .about-txt {
+    font-size: 32px;
+  }
+
+  .about-header {
+    font-size: 80px;
+  }
+
+  .about-sec-header {
+    top: 22%;
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-container {
+    gap: 50px;
+    margin: 100px 40px;
+  }
+
+  .about-txt {
+    font-size: 40px;
+  }
+
+  .about-header {
+    font-size: 98px;
+  }
+
+  .about-sec-header {
+    top: 22%;
+    text-align: center;
+    font-size: 54px;
+  }
+}
+
 .aboutMe {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: relative;
 }
 .about-container {
   position: relative;
   height: 100%;
-  margin: 100px 40px;
-
   display: flex;
   flex-direction: column;
-  gap: 100px;
   align-items: center;
 }
 .about-txt {
   color: white;
-  font-size: 22px;
-  width: 1200px;
+  width: 100%;
   border-radius: 20px;
   line-height: 1.5;
   text-align: center;
@@ -24,7 +125,6 @@
 
 .about-header {
   color: transparent;
-  font-size: 98px;
   background-clip: text;
   -webkit-text-stroke: 2px rgb(90, 90, 90);
   display: flex;
@@ -35,11 +135,8 @@
 
 .about-sec-header {
   position: absolute;
-  top: 30%;
-  left: 32%;
   background: linear-gradient(to right, rgb(161, 161, 161), rgb(73, 251, 53));
   background-clip: text;
   -webkit-text-stroke: transparent;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
 }
