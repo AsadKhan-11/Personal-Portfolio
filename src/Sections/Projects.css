@@ -56,22 +56,23 @@
   background-color: rgb(28, 28, 28);
 }
 
-.slide-active {
-  opacity: 1;
-  transition: 1s ease-in-out;
-  width: 500px;
-  height: 400px;
+.slide {
+  opacity: 0;
+  transition: 2s ease-in-out;
+  width: 0;
+  font-size: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 30px;
-  gap: 40px;
 }
 
-.slide {
-  opacity: 0;
-  transition: 1s ease-in-out;
-  width: 0;
+.slide-active {
+  opacity: 1;
+  width: 500px;
+  height: 400px;
+
+  font-size: 30px;
+  gap: 40px;
 }
 
 .slider {

@@ -57,7 +57,7 @@ function Projects() {
             {data.map((d, num) => (
               <div
                 key={num}
-                className={num === index ? "slide-active" : "slide"}
+                className={num === index ? " slide slide-active" : "slide"}
               >
                 <img src={d.img} className="project-img " />
                 <h3 className="project-name">{d.name}</h3>
