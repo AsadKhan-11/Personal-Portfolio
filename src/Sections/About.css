@@ -89,7 +89,7 @@
   }
 
   .about-txt {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   .about-header {
@@ -97,9 +97,9 @@
   }
 
   .about-sec-header {
-    top: 22%;
+    top: 30%;
     text-align: center;
-    font-size: 54px;
+    font-size: 40px;
   }
 }
 
