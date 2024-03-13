@@ -47,15 +47,18 @@ function Projects() {
             <h1 className="project-header">PROJECTS</h1>
             <h1 className="project-sec-header">MY WORK</h1>
           </div>
-          <button onClick={prevImg} id="prev" className="arr-btn prev-btn">
-            &larr;
-          </button>
-          <button onClick={nextImg} id="next" className="arr-btn next-btn">
-            &rarr;
-          </button>
-          <div className="all-projects">
+          <div className="slider">
+            <button onClick={prevImg} id="prev" className="arr-btn prev-btn">
+              &larr;
+            </button>
+            <button onClick={nextImg} id="next" className="arr-btn next-btn">
+              &rarr;
+            </button>
             {data.map((d, num) => (
-              <div key={num} className="project-container ">
+              <div
+                key={num}
+                className={num === index ? "slide-active" : "slide"}
+              >
                 <img src={d.img} className="project-img " />
                 <h3 className="project-name">{d.name}</h3>
               </div>

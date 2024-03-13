@@ -18,7 +18,7 @@ function Skills() {
             both creativity and technical know-how to my projects.
           </p>
 
-          <div className="skills-box" title="html">
+          <div className="skills-box">
             <div title="html" className="skill-icons">
               {" "}
               <svg
