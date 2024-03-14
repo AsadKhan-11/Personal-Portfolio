@@ -1,6 +1,131 @@
+@media (min-width: 1200px) {
+  .contact-header {
+    font-size: 98px;
+  }
+
+  .contact-container {
+    margin: 100px 40px;
+  }
+  .contact-sec-header {
+    font-size: 40px;
+  }
+  .contact-header-txt {
+    margin-bottom: 100px;
+  }
+
+  #contact-form {
+    height: 450px;
+    width: 400px;
+    gap: 40px;
+    padding: 30px 20px;
+  }
+
+  .contact::after {
+    box-shadow: 0px 0px 200px 80px rgb(156, 247, 146);
+  }
+
+  .contact::before {
+    box-shadow: 0 0 200px 80px rgb(156, 247, 146);
+  }
+  .contact-info {
+    height: 50px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  .fullname input {
+    width: 160px;
+  }
+
+  .mail-info {
+    gap: 60px;
+  }
+
+  .mail-info input {
+    width: 350px;
+  }
+  .submit {
+    background: linear-gradient(to right, rgb(76, 196, 86), rgb(32, 180, 32));
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    transition: all 1s;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-header {
+    font-size: 54px;
+  }
+
+  .contact-container {
+    margin: 50px 20px;
+  }
+  .contact-sec-header {
+    font-size: 28px;
+  }
+  .contact-header-txt {
+    margin-bottom: 50px;
+  }
+
+  #contact-form {
+    height: 250px;
+    width: 200px;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  .contact::after {
+    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
+  }
+
+  .contact::before {
+    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
+  }
+  .contact-info {
+    height: 30px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .fullname input {
+    width: 75px;
+  }
+
+  .mail-info {
+    gap: 10px;
+  }
+
+  .mail-info input {
+    width: 160px;
+  }
+  .submit {
+    background: linear-gradient(to right, rgb(76, 196, 86), rgb(32, 180, 32));
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+    transition: all 1s;
+  }
+}
+
 .contact-header {
   color: transparent;
-  font-size: 98px;
   background-clip: text;
   -webkit-text-stroke: 2px rgb(90, 90, 90);
   display: flex;
@@ -10,8 +135,9 @@
 
 .contact-sec-header {
   position: absolute;
-  top: 35px;
-  left: 38%;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
   background: linear-gradient(
     to right,
     rgb(177, 177, 177) 10%,
@@ -20,51 +146,41 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: transparent;
-
-  font-size: 40px;
 }
 
 .contact-header-txt {
   position: relative;
-  margin-bottom: 100px;
 }
 .contact {
   height: 100%;
+  max-width: 100%;
   position: relative;
-  margin: 50px 40px;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
-  height: 450px;
-  width: 400px;
   margin: 0 auto;
-  gap: 40px;
   border: 1px solid rgb(94, 94, 94);
   border-radius: 12px;
-  padding: 30px 20px;
 }
 .contact::after {
   content: "";
   position: absolute;
-  top: 45%;
+  top: 50%;
   right: 0%;
-  box-shadow: 0px 0px 200px 80px rgb(156, 247, 146);
   animation: light 2s normal;
 }
 
 .contact::before {
   content: "";
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 0%;
-  box-shadow: 0 0 200px 80px rgb(156, 247, 146);
   animation: light 2s normal;
 }
 
 .contact-info {
-  height: 50px;
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid grey;
@@ -78,13 +194,11 @@ label {
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 18px;
 }
 
 input {
   padding: 0 10px;
   color: white;
-  font-size: 18px;
 }
 
 .fullname {
@@ -92,9 +206,7 @@ input {
   justify-content: space-between;
   align-items: center;
 }
-.fullname input {
-  width: 160px;
-}
+
 .full-first {
   display: flex;
   flex-direction: column;
@@ -105,19 +217,12 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
-}
-
-.mail-info input {
-  width: 350px;
 }
 
 .submit {
   background: linear-gradient(to right, rgb(76, 196, 86), rgb(32, 180, 32));
-  width: 150px;
   cursor: pointer;
   border: none;
-  font-size: 18px;
   color: rgb(53, 53, 53);
   transition: all 1s;
 }

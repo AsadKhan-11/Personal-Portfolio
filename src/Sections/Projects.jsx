@@ -44,8 +44,10 @@ function Projects() {
       <section className="project" id="projects">
         <div className="projects-container">
           <div className="header-txt">
-            <h1 className="project-header">PROJECTS</h1>
-            <h1 className="project-sec-header">MY WORK</h1>
+            <h1 className="project-header">
+              PROJECTS
+              <span className="project-sec-header">MY WORK</span>
+            </h1>
           </div>
           <div className="slider">
             <button onClick={prevImg} id="prev" className="arr-btn prev-btn">

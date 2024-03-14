@@ -13,9 +13,7 @@
   }
 
   .skill-sec-header {
-    top: 33%;
     font-size: 28px;
-    text-align: center;
   }
 
   .skill-icons {
@@ -55,9 +53,7 @@
   }
 
   .skill-sec-header {
-    top: 35%;
     font-size: 32px;
-    text-align: center;
   }
 
   .skills-container {
@@ -104,9 +100,7 @@
   }
 
   .skill-sec-header {
-    top: 35%;
     font-size: 38px;
-    text-align: center;
   }
 
   .skills-container {
@@ -153,9 +147,7 @@
   }
 
   .skill-sec-header {
-    top: 28%;
     font-size: 48px;
-    text-align: center;
   }
 
   .skills-container {
@@ -202,9 +194,7 @@
   }
 
   .skill-sec-header {
-    top: 40%;
     font-size: 40px;
-    text-align: center;
   }
 
   .skills-container {
@@ -274,7 +264,9 @@
 
 .skill-sec-header {
   position: absolute;
-
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
   background: linear-gradient(to right, rgb(161, 161, 161), rgb(73, 251, 53));
   background-clip: text;
   -webkit-text-fill-color: transparent;

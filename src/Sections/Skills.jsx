@@ -7,8 +7,8 @@ function Skills() {
       <section id="skills" className="skills">
         <div className="skills-container">
           <h1 className="skill-header">
-            Expertise
-            <span className="skill-sec-header">My Skills</span>
+            EXPERTISE
+            <span className="skill-sec-header">MY SKILLS</span>
           </h1>
           <p className="skill-txt">
             I'm a front-end developer skilled in creating responsive websites
