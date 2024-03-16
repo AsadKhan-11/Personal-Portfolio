@@ -1,12 +1,33 @@
-@media (max-width: 600px) and (min-width: 350px) {
+@media (max-width: 350px) {
   .logo {
     display: none;
   }
 
   .contact-btn {
-    width: 90px;
+    width: 70px;
     height: 30px;
-    font-size: 14px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .links {
+    width: 60%;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 350px) {
+  .logo {
+    display: none;
+  }
+
+  .contact-btn {
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
     text-align: center;
   }
 
@@ -15,7 +36,23 @@
   }
 
   .links {
-    width: 220px;
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) and (min-width: 600px) {
+  .contact-btn {
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .links {
+    width: 40%;
   }
 }
 
@@ -25,9 +62,9 @@
   }
 
   .contact-btn {
-    width: 140px;
+    width: 120px;
     height: 40px;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .nav-link {
@@ -35,15 +72,15 @@
   }
 
   .links {
-    width: 500px;
+    width: 50%;
   }
 }
 
 @media (min-width: 1200px) {
   .contact-btn {
-    width: 130px;
+    width: 120px;
     height: 40px;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .nav-link {
@@ -51,7 +88,7 @@
   }
 
   .links {
-    width: 500px;
+    width: 50%;
   }
 }
 
