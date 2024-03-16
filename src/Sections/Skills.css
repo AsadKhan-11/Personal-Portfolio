@@ -1,4 +1,44 @@
-@media (max-width: 600px) {
+@media (max-width: 349px) {
+  .skills-container {
+    gap: 30px;
+    margin: 30px 10px;
+  }
+
+  .skill-txt {
+    font-size: 16px;
+  }
+
+  .skill-header {
+    font-size: 40px;
+  }
+
+  .skill-sec-header {
+    font-size: 22px;
+  }
+
+  .skill-icons {
+    height: 35px;
+    width: 35px;
+  }
+  .skill-icons svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .skills::after {
+    top: 45%;
+    right: 0%;
+    box-shadow: 0 0 200px 35px rgb(156, 247, 146);
+  }
+
+  .skills::before {
+    top: 45%;
+    left: 0%;
+    box-shadow: 0 0 200px 35px rgb(156, 247, 146);
+  }
+}
+
+@media (max-width: 599px) and (min-width: 350px) {
   .skills-container {
     gap: 50px;
     margin: 50px 20px;
@@ -17,12 +57,12 @@
   }
 
   .skill-icons {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
   .skill-icons svg {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
   }
 
   .skills::after {
@@ -38,7 +78,7 @@
   }
 }
 
-@media (max-width: 800px) and (min-width: 600px) {
+@media (max-width: 799px) and (min-width: 600px) {
   .skills-container {
     gap: 50px;
     margin: 50px 20px;
@@ -85,7 +125,7 @@
   }
 }
 
-@media (max-width: 1000px) and (min-width: 800px) {
+@media (max-width: 999px) and (min-width: 800px) {
   .skills-container {
     gap: 50px;
     margin: 100px 40px;
@@ -132,7 +172,7 @@
   }
 }
 
-@media (max-width: 1200px) and (min-width: 1000px) {
+@media (max-width: 1199px) and (min-width: 1000px) {
   .skills-container {
     gap: 50px;
     margin: 100px 40px;
