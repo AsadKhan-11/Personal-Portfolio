@@ -1,20 +1,21 @@
 @media (max-width: 600px) {
   .hero-name {
-    font-size: 36px;
-
+    font-size: 26px;
     position: absolute;
-    right: 30px;
+    left: 30px;
     top: 70px;
+
     animation: normal 2s name;
   }
 
   .hero-s-name {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .hero-img {
     height: 400px;
     animation: normal 3s links;
+    opacity: 0.8;
   }
 
   .hero-container {
@@ -30,8 +31,8 @@
   .profession-name {
     font-size: 30px;
     position: absolute;
-    left: 20px;
-    bottom: 40px;
+    bottom: 30px;
+    right: 75px;
     animation: normal 2s prof;
   }
 }
