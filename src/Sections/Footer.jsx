@@ -55,12 +55,7 @@ function Footer() {
               </div>
             </a>
 
-            <a
-              href="www.linkedin.com/in/asad-khan-011h
-
-"
-              className="linkedin"
-            >
+            <a href="www.linkedin.com/in/asad-khan-011h" className="linkedin">
               <div className="footer-icons">
                 <svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -102,7 +97,7 @@ function Footer() {
             <p className="footer-number">mrasad10khan@gmail.com</p>
           </div>
           <div className="footer-rights">
-            <p className="footer-reserve">All right reserved by asad</p>
+            <p className="footer-reserve">All rights reserved by asad</p>
             <h1 className="footer-logo">ASAD</h1>
           </div>
         </div>

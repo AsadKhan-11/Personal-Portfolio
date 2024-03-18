@@ -8,8 +8,8 @@
   .footer-details {
     padding: 0 20px;
 
-    font-size: 14px;
-    gap: 20px;
+    font-size: 12px;
+    gap: 10px;
   }
 
   .footer-rights {
@@ -25,11 +25,11 @@
   }
 
   .footer-rights::after {
-    box-shadow: 0 0 350px 60px rgb(156, 247, 146);
+    box-shadow: 0 0 450px 40px rgb(156, 247, 146);
   }
 
   .footer-reserve {
-    font-size: 12px;
+    font-size: 14px;
   }
   .footer-icons-container {
     gap: 20px;
@@ -50,7 +50,7 @@
 
   .footer-details {
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 14px;
     gap: 20px;
   }
 
@@ -58,13 +58,12 @@
     height: 20px;
 
     gap: 20px;
-    justify-content: space-between;
 
     padding: 0 10px;
     font-weight: 400;
   }
   .footer-rights::after {
-    box-shadow: 0 0 400px 20px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
   }
 
   .footer-logo {
@@ -72,7 +71,7 @@
   }
 
   .footer-reserve {
-    font-size: 8px;
+    font-size: 14px;
   }
   .footer-icons-container {
     gap: 20px;
@@ -93,21 +92,20 @@
 
   .footer-details {
     padding: 0 40px;
-    font-size: 16px;
-    gap: 20px;
+    font-size: 18px;
+    gap: 40px;
   }
 
   .footer-rights {
     height: 20px;
 
     gap: 20px;
-    justify-content: space-between;
 
     padding: 0 10px;
     font-weight: 400;
   }
   .footer-rights::after {
-    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 50px rgb(156, 247, 146);
   }
 
   .footer-logo {
@@ -148,7 +146,6 @@
     height: 20px;
 
     gap: 20px;
-    justify-content: space-between;
 
     padding: 0 10px;
     font-weight: 400;
@@ -188,20 +185,19 @@
   .footer-details {
     padding: 0 40px;
     font-size: 22px;
-    gap: 60px;
+    gap: 80px;
   }
 
   .footer-rights {
     height: 20px;
 
     gap: 20px;
-    justify-content: space-between;
 
     padding: 0 10px;
     font-weight: 400;
   }
   .footer-rights::after {
-    box-shadow: 0 0 200px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
   }
 
   .footer-logo {
@@ -235,20 +231,19 @@
   .footer-details {
     padding: 0 40px;
     font-size: 22px;
-    gap: 60px;
+    gap: 100px;
   }
 
   .footer-rights {
     height: 20px;
 
     gap: 20px;
-    justify-content: space-between;
 
     padding: 0 10px;
     font-weight: 400;
   }
   .footer-rights::after {
-    box-shadow: 0 0 200px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
   }
 
   .footer-logo {
@@ -298,11 +293,11 @@
 
 .footer-details {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(
-    to left,
-    rgb(177, 177, 177) 30%,
+    to bottom,
+    rgb(177, 177, 177) 20%,
     rgb(98, 158, 92) 50%
   );
 
@@ -315,6 +310,7 @@
   border-top-left-radius: 12px;
   height: 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(
     to right,
@@ -347,19 +343,25 @@
   font-family: cursive;
 }
 
-a {
-  fill: rgb(7, 7, 7);
-}
-
-a.fiverr:hover {
+.fiverr {
   fill: rgb(25, 173, 25);
   transition: ease-in 1s;
 }
-a.github:hover {
-  fill: white;
+.github {
+  fill: black;
   transition: ease-in 1s;
 }
-:where(a.linkedin, .instagram):hover {
+.instagram {
+  transition: ease-in 1s;
+  fill: url(#insta-gradient);
+}
+
+.linkedin {
+  transition: ease-in 1s;
+  fill: rgb(0, 119, 181);
+}
+
+:where(a.github, a.fiverr, a.linkedin, a.instagram):hover {
   transition: ease-in 1s;
   fill: white;
 }

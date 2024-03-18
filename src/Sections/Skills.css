@@ -1,7 +1,7 @@
 @media (max-width: 349px) {
   .skills-container {
     gap: 30px;
-    margin: 30px 10px;
+    margin: 40px 10px;
   }
 
   .skill-txt {
@@ -97,7 +97,7 @@
   }
 
   .skills-container {
-    margin: 50px 40px;
+    margin: 70px 40px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -128,7 +128,7 @@
 @media (max-width: 999px) and (min-width: 800px) {
   .skills-container {
     gap: 50px;
-    margin: 100px 40px;
+    margin: 80px 40px;
   }
 
   .skill-txt {
@@ -191,7 +191,7 @@
   }
 
   .skills-container {
-    margin: 50px 40px;
+    margin: 100px 40px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -238,7 +238,7 @@
   }
 
   .skills-container {
-    margin: 50px 40px;
+    margin: 120px 40px;
     display: flex;
     flex-direction: column;
     gap: 80px;
