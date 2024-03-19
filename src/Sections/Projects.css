@@ -1,6 +1,6 @@
 @media (max-width: 349px) {
   .header-txt::after {
-    box-shadow: 0 0 200px 35px rgb(156, 247, 146);
+    box-shadow: 0 0 300px 50px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 10px;
@@ -45,7 +45,7 @@
 
 @media (max-width: 599px) and (min-width: 350px) {
   .header-txt::after {
-    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
+    box-shadow: 0 0 350px 55px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 20px;
@@ -90,7 +90,7 @@
 
 @media (max-width: 799px) and (min-width: 600px) {
   .header-txt::after {
-    box-shadow: 0 0 400px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 40px;
@@ -134,7 +134,7 @@
 
 @media (max-width: 999px) and (min-width: 800px) {
   .header-txt::after {
-    box-shadow: 0 0 400px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 65px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 40px;
@@ -178,7 +178,7 @@
 
 @media (max-width: 1199px) and (min-width: 1000px) {
   .header-txt::after {
-    box-shadow: 0 0 400px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 70px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 40px;
@@ -222,7 +222,7 @@
 
 @media (min-width: 1200px) {
   .header-txt::after {
-    box-shadow: 0 0 400px 100px rgb(156, 247, 146);
+    box-shadow: 0 0 400px 80px rgb(156, 247, 146);
   }
   .projects-container {
     margin: 0px 40px;

@@ -1,6 +1,6 @@
 @media (max-width: 349px) {
   .skills-container {
-    gap: 30px;
+    gap: 50px;
     margin: 40px 10px;
   }
 
@@ -40,7 +40,7 @@
 
 @media (max-width: 599px) and (min-width: 350px) {
   .skills-container {
-    gap: 50px;
+    gap: 60px;
     margin: 50px 20px;
   }
 
@@ -79,11 +79,6 @@
 }
 
 @media (max-width: 799px) and (min-width: 600px) {
-  .skills-container {
-    gap: 50px;
-    margin: 50px 20px;
-  }
-
   .skill-txt {
     font-size: 20px;
   }
@@ -100,7 +95,7 @@
     margin: 70px 40px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
   }
 
   .skill-icons {
@@ -126,13 +121,8 @@
 }
 
 @media (max-width: 999px) and (min-width: 800px) {
-  .skills-container {
-    gap: 50px;
-    margin: 80px 40px;
-  }
-
   .skill-txt {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .skill-header {
@@ -147,7 +137,7 @@
     margin: 50px 40px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px;
   }
 
   .skill-icons {
@@ -173,13 +163,8 @@
 }
 
 @media (max-width: 1199px) and (min-width: 1000px) {
-  .skills-container {
-    gap: 50px;
-    margin: 100px 40px;
-  }
-
   .skill-txt {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .skill-header {
@@ -194,7 +179,7 @@
     margin: 100px 40px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 90px;
   }
 
   .skill-icons {
@@ -220,13 +205,8 @@
 }
 
 @media (min-width: 1200px) {
-  .skills-container {
-    gap: 50px;
-    margin: 100px 40px;
-  }
-
   .skill-txt {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .skill-header {
@@ -241,7 +221,7 @@
     margin: 120px 40px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 100px;
   }
 
   .skill-icons {
