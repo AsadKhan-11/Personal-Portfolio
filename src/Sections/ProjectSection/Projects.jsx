@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Projects.css";
-import youtube from "../projects/youtube.png";
-import player from "../projects/player.png";
-import calculator from "../projects/calculator.png";
-import news from "../projects/news.png";
-import omnifood from "../projects/omnifood.png";
-import weather from "../projects/weather.png";
+import youtube from "../../projects/youtube.png";
+import player from "../../projects/player.png";
+import calculator from "../../projects/calculator.png";
+import news from "../../projects/news.png";
+import omnifood from "../../projects/omnifood.png";
+import weather from "../../projects/weather.png";
 
 const data = [
   { name: "News App", img: `${news}` },
