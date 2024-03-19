@@ -51,13 +51,8 @@
     width: 350px;
   }
   .submit {
-    background: linear-gradient(to right, rgb(76, 196, 86), rgb(32, 180, 32));
     width: 150px;
-    cursor: pointer;
-    border: none;
-    font-size: 18px;
-    color: rgb(53, 53, 53);
-    transition: all 1s;
+    font-size: 20px;
   }
 }
 
@@ -411,7 +406,7 @@
 }
 
 .contact-info {
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: transparent;
   border: 1px solid grey;
 }
@@ -465,6 +460,7 @@ input {
 .sub-btn {
   display: flex;
   justify-content: center;
+  border-radius: 25px;
 }
 
 @keyframes light {
