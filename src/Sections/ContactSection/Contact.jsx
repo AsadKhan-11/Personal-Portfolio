@@ -19,8 +19,8 @@ function Contact() {
       .then(() => {
         alert("Email sent successfully");
       })
-      .catch(() => {
-        alert("Error sending email");
+      .catch((error) => {
+        alert("Error sending email" + error.message);
       });
   };
 
@@ -35,7 +35,7 @@ function Contact() {
             </h1>
           </div>
 
-          <form id="contact-form" onSubmit={sendEmail}>
+          <form id="contact-form" name="contact-form" onSubmit={sendEmail}>
             <div className="fullname">
               <div className="full-first">
                 <label htmlFor="Fname">First name</label>
