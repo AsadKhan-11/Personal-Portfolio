@@ -6,4 +6,9 @@ import envCompatible from "vite-plugin-env-compatible";
 export default defineConfig({
   envPrefix: "REACT_APP",
   plugins: [envCompatible(), react()],
+  build: {
+    rollupOptions: {
+      external: ["react-simple-typewriter"],
+    },
+  },
 });
