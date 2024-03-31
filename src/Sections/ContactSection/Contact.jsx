@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import emailjs, { sendForm } from "@emailjs/browser";
 
@@ -20,8 +20,24 @@ function Contact() {
         alert("Email sent successfully");
       })
       .catch((error) => {
-        alert("Error sending email" + error.message);
+        alert("Error sending email");
       });
+  };
+
+  const [details, setDetails] = useState({
+    firstname: "",
+    lastname: "",
+    emailfrom: "",
+    message: "",
+  });
+
+  const changeName = (e) => {
+    setDetails((prev) => {
+      let helper = { ...prev };
+      helper[`${e.target.id}`] = e.target.value;
+
+      return helper;
+    });
   };
 
   return (
@@ -45,6 +61,8 @@ function Contact() {
                   type="txt"
                   className="contact-info"
                   required
+                  onChange={changeName}
+                  value={details.firstname}
                 />
               </div>
               <div className="full-first">
@@ -55,6 +73,8 @@ function Contact() {
                   type="txt"
                   className="contact-info"
                   required
+                  onChange={changeName}
+                  value={details.lastname}
                 />
               </div>
             </div>
@@ -67,6 +87,8 @@ function Contact() {
                   type="email"
                   className="contact-info"
                   required
+                  onChange={changeName}
+                  value={details.emailfrom}
                 />
               </div>
               <div className="full-first">
@@ -76,6 +98,8 @@ function Contact() {
                   name="message"
                   type="text"
                   className="contact-info"
+                  onChange={changeName}
+                  value={details.message}
                 />
               </div>
             </div>
