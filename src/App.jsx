@@ -11,7 +11,6 @@ import Footer from "./Sections/FooterSection/Footer";
 function App() {
   return (
     <>
-      <Navbar />
       <Hero />
       <About />
       <Skills />
