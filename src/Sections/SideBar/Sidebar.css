@@ -1,0 +1,118 @@
+.sidebar {
+  max-height: max-content;
+  width: 100%;
+  margin: 20px;
+}
+
+.side-card {
+  height: 600px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(34, 34, 34);
+  box-shadow: 0 0 2px 1px rgb(141, 247, 93);
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.side-img {
+  height: 400px;
+  object-fit: cover;
+  aspect-ratio: 2/2;
+}
+
+.img-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 0 2px 1px rgb(173, 173, 173);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.side-name {
+  font-size: 32px;
+}
+
+.side-specialize,
+.side-location {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.side-desc {
+  font-size: 22px;
+}
+
+.side-info-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-info-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.side-head-1,
+.side-head-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.side-icons {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(78, 78, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.side-icons:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+.side-icons svg {
+  height: 20px;
+  width: 20px;
+}
+
+.side-instagram {
+  fill: white;
+}
+.side-linkedin {
+  fill: white;
+}
+.side-fiverr {
+  fill: white;
+}
+.side-github {
+  fill: white;
+}
+
+.side-btn {
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 1s;
+  font-weight: 500;
+}

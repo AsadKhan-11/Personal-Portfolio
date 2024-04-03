@@ -1,0 +1,8 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+.complete-container {
+  display: flex;
+  gap: 30px;
+}
