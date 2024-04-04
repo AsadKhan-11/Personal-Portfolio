@@ -135,6 +135,28 @@
   background-color: transparent;
   font-weight: 600;
 }
+.home-work {
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid rgb(236, 230, 230);
+  background-color: transparent;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.home-work:hover {
+  background-color: rgb(85, 85, 85);
+}
+.home-work svg {
+  height: 80px;
+  width: 20px;
+}
 
 .hero-name {
   /* background: linear-gradient(
