@@ -117,7 +117,9 @@ function Sidebar() {
             </div>
           </div>
 
-          <button class="side-btn submit">Let's work together!</button>
+          <a href="#contact-form" className="side-btn">
+            Let's work together!
+          </a>
         </div>
       </section>
     </>

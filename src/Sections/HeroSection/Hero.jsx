@@ -18,8 +18,11 @@ function Hero() {
         <div className="hero-container">
           <div className="home-info">
             <button className="home-meet">Let's talk!</button>
-            <h1 className="hero-name">I am {name}</h1>
-            <h1 className="hero-name">I am a {profession}</h1>
+            <div className="name-txt">
+              {" "}
+              <h1 className="hero-name">I am {name}</h1>
+              <h1 className="hero-name">I am a {profession}</h1>
+            </div>
             <button className="home-work">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

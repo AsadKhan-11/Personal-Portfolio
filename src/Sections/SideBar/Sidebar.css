@@ -114,4 +114,16 @@
   font-size: 16px;
   transition: all 1s;
   font-weight: 500;
+  background: linear-gradient(to right, rgb(5, 146, 17), rgb(126, 180, 39));
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-btn:hover {
+  background: linear-gradient(to right, rgb(126, 180, 39), rgb(35, 155, 35));
+  transition: all 1s;
+  color: rgb(53, 53, 53);
 }
