@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import picture from "../../images/ASAD4.png";
 import Navbar from "../NavbarSection/Navbar";
 
 import back from "../../images/Space.jpg";
@@ -14,7 +13,6 @@ function Hero() {
   return (
     <>
       <section className="hero-section">
-        <Navbar />
         <div className="hero-container">
           <div className="home-info">
             <button className="home-meet">Let's talk!</button>

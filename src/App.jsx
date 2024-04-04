@@ -7,20 +7,25 @@ import Projects from "./Sections/ProjectSection/Projects";
 import Contact from "./Sections/ContactSection/Contact";
 import Footer from "./Sections/FooterSection/Footer";
 import Sidebar from "./Sections/SideBar/Sidebar";
+import Navbar from "./Sections/NavbarSection/Navbar";
 
 function App() {
   return (
-    <div className="complete-container">
-      <Sidebar />
-      <section className="page-container">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </section>
-    </div>
+    <>
+      {" "}
+      <Navbar />
+      <div className="complete-container">
+        <Sidebar />
+        <section className="page-container">
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </section>
+      </div>
+    </>
   );
 }
 

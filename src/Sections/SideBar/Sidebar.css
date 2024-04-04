@@ -1,3 +1,107 @@
+@media (max-width: 349px) {
+  .side-card {
+    height: 500px;
+    width: 250px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 5px 1px rgb(185, 255, 71);
+    color: rgb(236, 230, 230);
+  }
+  .side-img {
+    height: 200px;
+  }
+  .img-container {
+    height: 120px;
+    width: 120px;
+  }
+  .side-name {
+    font-size: 24px;
+  }
+  .side-specialize,
+  .side-location {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .side-desc {
+    font-size: 18px;
+  }
+
+  .side-icons {
+    height: 30px;
+    width: 25px;
+  }
+  .side-icons svg {
+    height: 12px;
+    width: 12px;
+  }
+  .side-icons-container {
+    gap: 20px;
+  }
+  .side-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 1s;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 350px) {
+  .side-card {
+    height: 550px;
+    width: 350px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 5px 1px rgb(185, 255, 71);
+    color: rgb(236, 230, 230);
+  }
+  .side-img {
+    height: 270px;
+  }
+  .img-container {
+    height: 150px;
+    width: 140px;
+  }
+  .side-name {
+    font-size: 26px;
+  }
+  .side-specialize,
+  .side-location {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .side-desc {
+    font-size: 20px;
+  }
+
+  .side-icons {
+    height: 35px;
+    width: 35px;
+  }
+  .side-icons svg {
+    height: 15px;
+    width: 15px;
+  }
+  .side-icons-container {
+    gap: 20px;
+  }
+  .side-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 1s;
+    font-weight: 300;
+  }
+}
+
 .sidebar {
   max-height: max-content;
   width: 100%;
@@ -5,11 +109,8 @@
 }
 
 .side-card {
-  height: 600px;
-  width: 350px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
@@ -21,32 +122,16 @@
 }
 
 .side-img {
-  height: 400px;
   object-fit: cover;
   aspect-ratio: 2/2;
 }
 
 .img-container {
-  height: 200px;
-  width: 200px;
   border-radius: 12px;
   box-shadow: 0 0 2px 1px rgb(173, 173, 173);
   overflow: hidden;
   display: flex;
   justify-content: center;
-}
-.side-name {
-  font-size: 32px;
-}
-
-.side-specialize,
-.side-location {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.side-desc {
-  font-size: 22px;
 }
 
 .side-info-1 {
@@ -70,12 +155,12 @@
 
 .side-icons-container {
   display: flex;
-  gap: 20px;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .side-icons {
-  height: 40px;
-  width: 40px;
   border: 1px solid rgb(78, 78, 78);
   display: flex;
   align-items: center;
@@ -86,11 +171,6 @@
 
 .side-icons:hover {
   background-color: rgb(85, 85, 85);
-}
-
-.side-icons svg {
-  height: 20px;
-  width: 20px;
 }
 
 .side-instagram {
@@ -107,13 +187,9 @@
 }
 
 .side-btn {
-  width: 180px;
-  height: 50px;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 16px;
   transition: all 1s;
-  font-weight: 500;
   background: linear-gradient(to right, rgb(5, 146, 17), rgb(126, 180, 39));
   border: none;
   text-decoration: none;
