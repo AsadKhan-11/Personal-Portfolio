@@ -17,7 +17,8 @@ function Hero() {
         <Navbar />
         <div className="hero-container">
           <div className="home-info">
-            <h1 className="hero-name">My name is {name}</h1>
+            <button className="home-meet">Let's talk!</button>
+            <h1 className="hero-name">I am {name}</h1>
             <h1 className="hero-name">I am a {profession}</h1>
           </div>
           {/* <h1 className="hero-name">
