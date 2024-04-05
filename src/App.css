@@ -1,3 +1,10 @@
+@media (max-width: 349px) {
+  .complete-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -5,6 +12,4 @@
 }
 .complete-container {
   display: flex;
-
-  position: relative;
 }
