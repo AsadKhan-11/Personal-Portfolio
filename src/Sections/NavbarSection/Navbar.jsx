@@ -4,7 +4,6 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <h1 className="logo">ASAD</h1>
 
         <nav className="links">
           <a href="#about-me" className="nav-link">

@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       {" "}
-      <Navbar />
       <div className="complete-container">
         <Sidebar />
         <section className="page-container">
+          <Navbar />
           <Hero />
           <About />
           <Skills />
