@@ -5,11 +5,24 @@
   }
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
+@media (max-width: 599px) and (min-width: 350px) {
+  .complete-container {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
+@media (max-width: 799px) and (min-width: 600px) {
+  .complete-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 999px) and (min-width: 800px) {
+  .complete-container {
+    gap: 70px;
+  }
+}
+
 .complete-container {
   display: flex;
 }
