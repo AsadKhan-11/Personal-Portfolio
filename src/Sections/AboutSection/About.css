@@ -100,7 +100,7 @@
   }
 
   .about-txt {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .about-header {
@@ -151,4 +151,26 @@
   top: 50%;
   transform: translate(0, -50%);
   text-align: center;
+}
+
+.about-tags {
+  display: flex;
+  gap: 45px;
+}
+.about-tags-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 5px 1px rgb(185, 255, 71);
+  background-color: rgb(27, 27, 27);
+  border-radius: 22px;
+  width: 230px;
+  height: 130px;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: center;
+}
+.about-info {
+  font-size: 52px;
+  font-weight: 500;
 }
