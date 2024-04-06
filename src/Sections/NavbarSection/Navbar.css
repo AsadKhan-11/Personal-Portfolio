@@ -108,7 +108,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  position: sticky;
+  top: 0;
   gap: 10px;
   padding: 0 20px;
   z-index: 1;
@@ -172,6 +173,12 @@
 .nav-link {
   color: white;
   text-decoration: none;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.nav-link:active {
+  border: 1px solid rgb(73, 251, 53);
 }
 
 .nav-link:hover {

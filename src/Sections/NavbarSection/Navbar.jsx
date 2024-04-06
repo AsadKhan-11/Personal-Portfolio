@@ -4,18 +4,19 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-
-        <nav className="links">
-          <a href="#about-me" className="nav-link">
-            About
-          </a>
-          <a href="#skills" className="nav-link">
-            Skills
-          </a>
-          <a href="#projects" className="nav-link">
-            Projects
-          </a>
-        </nav>
+        {/* <nav className="links"> */}
+        <a href="#hero" className="nav-link">
+          Home
+        </a>
+        <a href="#about-me" className="nav-link">
+          About
+        </a>
+        <a href="#skills" className="nav-link">
+          Skills
+        </a>
+        <a href="#projects" className="nav-link">
+          Projects
+        </a>
 
         <a href="#contact-form" className="contact-btn">
           Contact me

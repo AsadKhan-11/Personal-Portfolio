@@ -12,7 +12,7 @@ function Hero() {
 
   return (
     <>
-      <section className="hero-section">
+      <section className="hero-section" id="hero">
         <div className="hero-container">
           <div className="home-info">
             <button className="home-meet">Let's talk!</button>
