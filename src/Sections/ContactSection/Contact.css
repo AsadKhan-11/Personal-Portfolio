@@ -3,9 +3,6 @@
     font-size: 98px;
   }
 
-  .contact-container {
-    margin: 0px 40px;
-  }
   .contact-sec-header {
     font-size: 40px;
   }
@@ -15,20 +12,14 @@
 
   #contact-form {
     height: 450px;
-    width: 400px;
-    gap: 40px;
-    padding: 30px 20px;
+    width: 700px;
+    gap: 70px;
+    margin: 0 auto;
   }
 
-  .contact::after {
-    box-shadow: 0px 0px 200px 80px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 200px 80px rgb(156, 247, 146);
-  }
   .contact-info {
     height: 50px;
+    width: 100%;
   }
 
   label {
@@ -38,20 +29,13 @@
   input {
     font-size: 18px;
   }
-
-  .fullname input {
-    width: 160px;
+  .fullname {
+    gap: 100px;
   }
 
-  .mail-info {
-    gap: 60px;
-  }
-
-  .mail-info input {
-    width: 350px;
-  }
   .submit {
-    width: 150px;
+    width: 200px;
+    height: 50px;
     font-size: 20px;
   }
 }
@@ -313,13 +297,6 @@
     padding: 30px 20px;
   }
 
-  .contact::after {
-    box-shadow: 0 0 200px 35px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 200px 35px rgb(156, 247, 146);
-  }
   .contact-info {
     height: 25px;
   }
@@ -377,7 +354,7 @@
   position: relative;
 }
 .contact {
-  height: 100%;
+  max-height: max-content;
   max-width: 100%;
   position: relative;
 }
@@ -385,45 +362,18 @@
 #contact-form {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  border: 1px solid rgb(94, 94, 94);
-  border-radius: 12px;
-}
-.contact::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  animation: light 2s normal;
-}
-
-.contact::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  animation: light 2s normal;
 }
 
 .contact-info {
-  border-radius: 25px;
   background-color: transparent;
-  border: 1px solid grey;
-}
-
-label {
-  background: linear-gradient(
-    to right,
-    rgb(61, 100, 56) 10%,
-    rgb(43, 243, 43) 90%
-  );
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(98, 141, 28);
 }
 
 input {
   padding: 0 10px;
   color: white;
+  outline: none;
 }
 
 .fullname {
@@ -436,6 +386,7 @@ input {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 
 .mail-info {
@@ -449,6 +400,7 @@ input {
   cursor: pointer;
   border: none;
   transition: background 1s ease-in-out;
+  border-radius: 25px;
 }
 .submit:hover {
   background: linear-gradient(to right, rgb(126, 180, 39), rgb(35, 155, 35));
@@ -460,13 +412,4 @@ input {
   display: flex;
   justify-content: center;
   border-radius: 25px;
-}
-
-@keyframes light {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }

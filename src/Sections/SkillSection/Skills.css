@@ -1,7 +1,6 @@
 @media (max-width: 349px) {
   .skills-container {
     gap: 50px;
-    margin: 0 20px;
   }
 
   .skill-txt {

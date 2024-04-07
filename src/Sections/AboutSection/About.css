@@ -227,7 +227,6 @@
 @media (max-width: 1199px) and (min-width: 1000px) {
   .about-container {
     gap: 50px;
-    margin: 100px 0px;
   }
 
   .about-txt {

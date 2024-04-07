@@ -27,6 +27,7 @@ function Contact() {
   const [details, setDetails] = useState({
     firstname: "",
     lastname: "",
+    numfron: "",
     emailfrom: "",
     message: "",
   });
@@ -54,22 +55,22 @@ function Contact() {
           <form id="contact-form" name="contact-form" onSubmit={sendEmail}>
             <div className="fullname">
               <div className="full-first">
-                <label htmlFor="Fname">First name</label>
                 <input
                   name="firstname"
                   id="firstname"
                   type="txt"
                   className="contact-info"
                   required
+                  placeholder="First Name*"
                   onChange={changeName}
                   value={details.firstname}
                 />
               </div>
               <div className="full-first">
-                <label htmlFor="Lname">Last name</label>
                 <input
                   name="lastname"
                   id="lastname"
+                  placeholder="Last Name"
                   type="txt"
                   className="contact-info"
                   required
@@ -78,33 +79,45 @@ function Contact() {
                 />
               </div>
             </div>
-            <div className="mail-info">
+            <div className="fullname">
               <div className="full-first">
-                <label htmlFor="mail">Email</label>
                 <input
                   name="emailfrom"
                   id="emailfrom"
                   type="email"
                   className="contact-info"
+                  placeholder="Email*"
                   required
                   onChange={changeName}
                   value={details.emailfrom}
                 />
               </div>
               <div className="full-first">
-                <label htmlFor="description">Message</label>
                 <input
-                  id="message"
-                  name="message"
-                  type="text"
+                  name="numfrom"
+                  id="numfrom"
+                  type="number"
                   className="contact-info"
+                  placeholder="Phone Number"
+                  required
                   onChange={changeName}
-                  value={details.message}
+                  value={details.numfrom}
                 />
               </div>
             </div>
+            <div className="full-first">
+              <input
+                id="message"
+                name="message"
+                type="text"
+                placeholder="A Few Words*"
+                className="contact-info"
+                onChange={changeName}
+                value={details.message}
+              />
+            </div>
             <div className="sub-btn">
-              <input type="submit" className="submit contact-info" />
+              <input type="submit" className="submit " value="Send Message" />
             </div>
           </form>
         </div>

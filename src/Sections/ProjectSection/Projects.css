@@ -1,15 +1,9 @@
 @media (max-width: 349px) {
-  .header-txt::after {
-    box-shadow: 0 0 300px 50px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 10px;
-  }
   .project-header {
-    font-size: 40px;
+    font-size: 50px;
   }
   .project-sec-header {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .slider {
@@ -44,12 +38,6 @@
 }
 
 @media (max-width: 599px) and (min-width: 350px) {
-  .header-txt::after {
-    box-shadow: 0 0 350px 55px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 20px;
-  }
   .project-header {
     font-size: 54px;
   }
@@ -89,17 +77,11 @@
 }
 
 @media (max-width: 799px) and (min-width: 600px) {
-  .header-txt::after {
-    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 40px;
-  }
   .project-header {
-    font-size: 66px;
+    font-size: 60px;
   }
   .project-sec-header {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .slider {
@@ -133,17 +115,11 @@
 }
 
 @media (max-width: 999px) and (min-width: 800px) {
-  .header-txt::after {
-    box-shadow: 0 0 400px 65px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 40px;
-  }
   .project-header {
-    font-size: 72px;
+    font-size: 68px;
   }
   .project-sec-header {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .slider {
@@ -177,17 +153,11 @@
 }
 
 @media (max-width: 1199px) and (min-width: 1000px) {
-  .header-txt::after {
-    box-shadow: 0 0 400px 70px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 40px;
-  }
   .project-header {
-    font-size: 80px;
+    font-size: 72px;
   }
   .project-sec-header {
-    font-size: 48px;
+    font-size: 34px;
   }
 
   .slider {
@@ -221,17 +191,11 @@
 }
 
 @media (min-width: 1200px) {
-  .header-txt::after {
-    box-shadow: 0 0 400px 80px rgb(156, 247, 146);
-  }
-  .projects-container {
-    margin: 0px 40px;
-  }
   .project-header {
-    font-size: 98px;
+    font-size: 80px;
   }
   .project-sec-header {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .slider {
@@ -264,20 +228,12 @@
   }
 }
 
-.header-txt::after {
-  content: "";
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  animation: 2s normal light;
-}
-
 .projects-container {
   max-width: 100%;
 }
 
 .project {
-  height: 100%;
+  max-height: max-content;
   max-width: 100%;
   position: relative;
 }
@@ -292,7 +248,6 @@
   background-clip: text;
   -webkit-text-stroke: 2px rgb(90, 90, 90);
   display: flex;
-
   flex-direction: column;
   align-items: center;
 }
