@@ -37,6 +37,21 @@ function About() {
               React, and WordPress, ensuring that your project is in capable
               hands.
             </p>
+
+            <div className="about-side-box">
+              <div className="about-side-info">
+                <p className="about-name">Name</p>
+                <h2 className="about-name-desc">Asad Ahmed Khan</h2>
+              </div>
+              <div className="about-side-info">
+                <p className="about-name">Email</p>
+                <h2 className="about-name-desc">mrasad10khan@gmail.com</h2>
+              </div>
+              <div className="about-side-info">
+                <p className="about-name">Phone</p>
+                <h2 className="about-name-desc">+92 31043885534</h2>
+              </div>
+            </div>
           </div>
         </div>
       </section>

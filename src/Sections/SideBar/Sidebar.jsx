@@ -20,7 +20,7 @@ function Sidebar() {
             </div>
 
             <div class="side-head-2">
-              <p className="side-location">Based in:</p>
+              <p className="side-specialize">Based in:</p>
               <h2 className="side-desc">Lahore, Pakistan</h2>
             </div>
             <div className="side-icons-container">

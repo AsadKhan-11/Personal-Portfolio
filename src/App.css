@@ -19,7 +19,12 @@
 }
 @media (max-width: 999px) and (min-width: 800px) {
   .complete-container {
-    gap: 70px;
+    gap: 35px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 1000px) {
+  .complete-container {
+    gap: 50px;
   }
 }
 @media (min-width: 1200px) {

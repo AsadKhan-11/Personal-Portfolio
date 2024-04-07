@@ -168,7 +168,7 @@
 @media (max-width: 999px) and (min-width: 800px) {
   .side-card {
     height: 550px;
-    width: 350px;
+    width: 250px;
     gap: 20px;
     align-items: center;
     justify-content: center;
@@ -188,13 +188,12 @@
   .side-name {
     font-size: 30px;
   }
-  .side-specialize,
-  .side-location {
+  .side-specialize {
     font-size: 14px;
     font-weight: bold;
   }
   .side-desc {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .side-icons {
@@ -210,7 +209,7 @@
   }
   .side-btn {
     width: 180px;
-    height: 50px;
+    height: 40px;
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
@@ -220,8 +219,8 @@
 }
 @media (max-width: 1199px) and (min-width: 1000px) {
   .side-card {
-    height: 560px;
-    width: 320px;
+    height: 580px;
+    width: 280px;
     gap: 20px;
     align-items: center;
     justify-content: center;
@@ -241,13 +240,12 @@
   .side-name {
     font-size: 30px;
   }
-  .side-specialize,
-  .side-location {
+  .side-specialize {
     font-size: 14px;
     font-weight: bold;
   }
   .side-desc {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .side-icons {
@@ -294,8 +292,7 @@
   .side-name {
     font-size: 34px;
   }
-  .side-specialize,
-  .side-location {
+  .side-specialize {
     font-size: 14px;
     font-weight: bold;
   }
