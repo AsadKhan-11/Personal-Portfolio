@@ -1,17 +1,16 @@
 @media (min-width: 1200px) {
   .contact-header {
-    font-size: 98px;
+    font-size: 80px;
   }
 
   .contact-sec-header {
-    font-size: 40px;
+    font-size: 35px;
   }
   .contact-header-txt {
     margin-bottom: 100px;
   }
 
   #contact-form {
-    height: 450px;
     width: 700px;
     gap: 70px;
     margin: 0 auto;
@@ -22,12 +21,8 @@
     width: 100%;
   }
 
-  label {
-    font-size: 18px;
-  }
-
   input {
-    font-size: 18px;
+    font-size: 20px;
   }
   .fullname {
     gap: 100px;
@@ -42,189 +37,161 @@
 
 @media (max-width: 1199px) and (min-width: 1000px) {
   .contact-header {
-    font-size: 80px;
+    font-size: 72px;
   }
 
-  .contact-container {
-    margin: 0 40px;
-  }
   .contact-sec-header {
-    font-size: 48px;
+    font-size: 34px;
   }
   .contact-header-txt {
     margin-bottom: 100px;
   }
 
   #contact-form {
-    height: 450px;
-    width: 400px;
-    gap: 40px;
-    padding: 30px 20px;
+    width: 570px;
+    gap: 60px;
+    margin: 0 auto;
   }
 
-  .contact::after {
-    box-shadow: 0px 0px 200px 100px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 200px 100px rgb(156, 247, 146);
-  }
   .contact-info {
     height: 50px;
-  }
-
-  label {
-    font-size: 18px;
+    width: 100%;
   }
 
   input {
-    font-size: 18px;
+    font-size: 20px;
   }
 
-  .fullname input {
-    width: 160px;
+  .fullname {
+    gap: 90px;
   }
 
-  .mail-info {
-    gap: 60px;
-  }
-
-  .mail-info input {
-    width: 350px;
-  }
   .submit {
-    width: 150px;
-
+    width: 180px;
+    height: 50px;
     font-size: 18px;
   }
 }
 
 @media (max-width: 999px) and (min-width: 800px) {
   .contact-header {
-    font-size: 72px;
+    font-size: 68px;
   }
 
-  .contact-container {
-    margin: 0 40px;
-  }
   .contact-sec-header {
-    font-size: 38px;
+    font-size: 30px;
   }
   .contact-header-txt {
     margin-bottom: 70px;
   }
 
   #contact-form {
-    height: 400px;
-    width: 370px;
+    width: 460px;
     gap: 40px;
-    padding: 30px 20px;
+    margin: 0 auto;
   }
 
-  .contact::after {
-    box-shadow: 0px 0px 200px 50px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 200px 50px rgb(156, 247, 146);
-  }
   .contact-info {
     height: 50px;
-  }
-
-  label {
-    font-size: 18px;
+    width: 100%;
   }
 
   input {
-    font-size: 16px;
+    font-size: 18px;
   }
 
-  .fullname input {
-    width: 140px;
+  .fullname {
+    gap: 50px;
   }
 
-  .mail-info {
-    gap: 40px;
-  }
-
-  .mail-info input {
-    width: 320px;
-  }
   .submit {
-    width: 130px;
-
+    width: 150px;
+    height: 45px;
     font-size: 18px;
   }
 }
 
 @media (max-width: 799px) and (min-width: 600px) {
   .contact-header {
-    font-size: 66px;
+    font-size: 60px;
   }
 
-  .contact-container {
-    margin: 0 20px;
-  }
   .contact-sec-header {
-    font-size: 32px;
+    font-size: 30px;
   }
   .contact-header-txt {
     margin-bottom: 50px;
   }
 
   #contact-form {
-    height: 370px;
-    width: 350px;
+    width: 450px;
     gap: 40px;
-    padding: 30px 20px;
+    margin: 0 auto;
   }
 
-  .contact::after {
-    box-shadow: 0px 0px 200px 50px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 200px 50px rgb(156, 247, 146);
-  }
   .contact-info {
     height: 40px;
+    width: 100%;
   }
 
-  label {
+  input {
     font-size: 16px;
+  }
+
+  .fullname {
+    gap: 60px;
+  }
+
+  .submit {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 350px) {
+  .contact-header {
+    font-size: 54px;
+  }
+
+  .contact-sec-header {
+    font-size: 28px;
+  }
+  .contact-header-txt {
+    margin-bottom: 50px;
+  }
+
+  #contact-form {
+    width: 320px;
+    gap: 50px;
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    height: 40px;
+    width: 100%;
   }
 
   input {
     font-size: 14px;
   }
 
-  .fullname input {
-    width: 120px;
+  .fullname {
+    gap: 40px;
   }
 
-  .mail-info {
-    gap: 30px;
-  }
-
-  .mail-info input {
-    width: 250px;
-  }
   .submit {
     width: 120px;
-
-    font-size: 20px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 599px) and (min-width: 350px) {
+@media (max-width: 349px) {
   .contact-header {
     font-size: 50px;
   }
 
-  .contact-container {
-    margin: 0 20px;
-  }
   .contact-sec-header {
     font-size: 26px;
   }
@@ -233,95 +200,27 @@
   }
 
   #contact-form {
-    height: 250px;
     width: 200px;
-    gap: 20px;
-    padding: 30px 20px;
-  }
-
-  .contact::after {
-    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
-  }
-
-  .contact::before {
-    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
-  }
-  .contact-info {
-    height: 30px;
-  }
-
-  label {
-    font-size: 14px;
-  }
-
-  input {
-    font-size: 14px;
-  }
-
-  .fullname input {
-    width: 75px;
-  }
-
-  .mail-info {
-    gap: 10px;
-  }
-
-  .mail-info input {
-    width: 160px;
-  }
-  .submit {
-    width: 80px;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 349px) {
-  .contact-header {
-    font-size: 40px;
-  }
-
-  .contact-container {
-    margin: 0px 10px;
-  }
-  .contact-sec-header {
-    font-size: 22px;
-  }
-  .contact-header-txt {
-    margin-bottom: 50px;
-  }
-
-  #contact-form {
-    height: 220px;
-    width: 170px;
-    gap: 20px;
-    padding: 30px 20px;
+    gap: 40px;
+    margin: 0 auto;
   }
 
   .contact-info {
-    height: 25px;
-  }
-
-  label {
-    font-size: 12px;
+    height: 35px;
+    width: 100%;
   }
 
   input {
     font-size: 12px;
   }
 
-  .fullname input {
-    width: 60px;
+  .fullname {
+    gap: 40px;
   }
 
-  .mail-info {
-    gap: 10px;
-  }
-
-  .mail-info input {
-    width: 130px;
-  }
   .submit {
-    width: 80px;
+    width: 120px;
+    height: 35px;
     font-size: 14px;
   }
 }
@@ -371,7 +270,6 @@
 }
 
 input {
-  padding: 0 10px;
   color: white;
   outline: none;
 }
@@ -387,12 +285,6 @@ input {
   flex-direction: column;
   gap: 10px;
   width: 100%;
-}
-
-.mail-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .submit {
