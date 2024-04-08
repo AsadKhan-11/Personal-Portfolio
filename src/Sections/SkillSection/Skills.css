@@ -254,11 +254,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
 }
 
 .skill-icons:hover {
   box-shadow: 0 0 15px 1px rgb(74, 252, 68);
-  transition: all 0.5s;
 }
 
 @keyframes txt {

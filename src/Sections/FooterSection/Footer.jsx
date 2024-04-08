@@ -92,13 +92,20 @@ function Footer() {
               </div>
             </a>
           </div>
+
           <div className="footer-details">
-            <p className="footer-number">+92 310 4388534</p>
-            <p className="footer-number">mrasad10khan@gmail.com</p>
-          </div>
-          <div className="footer-rights">
-            <p className="footer-reserve">All rights reserved by asad</p>
-            <h1 className="footer-logo">ASAD</h1>
+            <div className="footer-inner-details">
+              <p className="footer-number">Location</p>
+              <p className="footer-number">Lahore,Pakistan</p>
+            </div>
+            <div className="footer-inner-details">
+              <p className="footer-number">Phone</p>
+              <p className="footer-number">+92 310 4388534</p>
+            </div>
+            <div className="footer-inner-details">
+              <p className="footer-number">Email</p>
+              <p className="footer-number">mrasad10khan@gmail.com</p>
+            </div>
           </div>
         </div>
       </section>

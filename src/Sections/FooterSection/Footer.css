@@ -138,29 +138,9 @@
 
   .footer-details {
     padding: 0 40px;
-    font-size: 22px;
-    gap: 60px;
+    font-size: 18px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    gap: 20px;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-rights::after {
-    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
-  }
-
-  .footer-logo {
-    font-size: 20px;
-  }
-
-  .footer-reserve {
-    font-size: 14px;
-  }
   .footer-icons-container {
     gap: 25px;
   }
@@ -185,28 +165,8 @@
   .footer-details {
     padding: 0 40px;
     font-size: 22px;
-    gap: 80px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    gap: 20px;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-rights::after {
-    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
-  }
-
-  .footer-logo {
-    font-size: 22px;
-  }
-
-  .footer-reserve {
-    font-size: 16px;
-  }
   .footer-icons-container {
     gap: 25px;
   }
@@ -231,28 +191,8 @@
   .footer-details {
     padding: 0 40px;
     font-size: 22px;
-    gap: 100px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    gap: 20px;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-rights::after {
-    box-shadow: 0 0 400px 60px rgb(156, 247, 146);
-  }
-
-  .footer-logo {
-    font-size: 24px;
-  }
-
-  .footer-reserve {
-    font-size: 16px;
-  }
   .footer-icons-container {
     gap: 35px;
   }
@@ -268,7 +208,7 @@
 }
 
 .footer {
-  height: 100%;
+  max-height: max-content;
 
   max-width: 100%;
 }
@@ -294,53 +234,19 @@
 .footer-details {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: linear-gradient(
     to bottom,
     rgb(177, 177, 177) 20%,
     rgb(98, 158, 92) 50%
   );
-
+  gap: 20px;
   background-clip: text;
+  word-break: break-all;
   -webkit-text-fill-color: transparent;
-}
-
-.footer-rights {
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(
-    to right,
-    white,
-    rgb(161, 201, 166),
-    rgb(73, 251, 53)
-  );
-  position: relative;
-}
-.footer-rights::after {
-  content: "";
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  animation: light 2s normal;
-}
-
-.footer-reserve {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-}
-
-.footer-logo {
-  background: linear-gradient(90deg, rgb(71, 71, 71), rgb(146, 146, 146));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: cursive;
+  border-top: 1px solid rgb(58, 58, 58);
+  margin: 0 20px;
+  padding: 50px 0;
 }
 
 .fiverr {
@@ -364,4 +270,11 @@
 :where(a.github, a.fiverr, a.linkedin, a.instagram):hover {
   transition: ease-in 1s;
   fill: white;
+}
+
+.footer-inner-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }

@@ -32,8 +32,8 @@
   }
 
   .side-icons {
-    height: 30px;
-    width: 25px;
+    height: 28px;
+    width: 30px;
   }
   .side-icons svg {
     height: 12px;
@@ -60,7 +60,7 @@
   }
   .side-card {
     height: 550px;
-    width: 350px;
+    width: 330px;
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -117,7 +117,7 @@
 
   .side-card {
     height: 550px;
-    width: 350px;
+    width: 380px;
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -133,36 +133,35 @@
     width: 140px;
   }
   .side-name {
-    font-size: 26px;
+    font-size: 30px;
   }
-  .side-specialize,
-  .side-location {
+  .side-specialize {
     font-size: 14px;
     font-weight: bold;
   }
   .side-desc {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .side-icons {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .side-icons svg {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
   }
   .side-icons-container {
     gap: 20px;
   }
   .side-btn {
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 45px;
     border-radius: 25px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     transition: all 1s;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 @media (max-width: 999px) and (min-width: 800px) {
@@ -228,7 +227,6 @@
     background-color: rgb(34, 34, 34);
     box-shadow: 0 0 5px 1px rgb(185, 255, 71);
     color: rgb(236, 230, 230);
-    top: 1%;
   }
   .side-img {
     height: 300px;
@@ -280,7 +278,6 @@
     background-color: rgb(34, 34, 34);
     box-shadow: 0 0 5px 1px rgb(185, 255, 71);
     color: rgb(236, 230, 230);
-    top: 0.5%;
   }
   .side-img {
     height: 350px;
@@ -338,6 +335,7 @@
   box-shadow: 0 0 5px 1px rgb(185, 255, 71);
   color: rgb(236, 230, 230);
   position: sticky;
+  top: 3%;
 }
 
 .side-img {
