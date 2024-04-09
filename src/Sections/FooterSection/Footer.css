@@ -12,32 +12,19 @@
     gap: 10px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    justify-content: space-between;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-logo {
-    font-size: 18px;
-  }
-
-  .footer-rights::after {
-    box-shadow: 0 0 450px 40px rgb(156, 247, 146);
-  }
-
-  .footer-reserve {
-    font-size: 14px;
-  }
   .footer-icons-container {
     gap: 20px;
   }
 
   .footer-icons {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
+    padding: 10px 15px;
+  }
+
+  .footer-icons svg {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -50,36 +37,23 @@
 
   .footer-details {
     padding: 0 20px;
-    font-size: 14px;
+    font-size: 10px;
     gap: 20px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    gap: 20px;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-rights::after {
-    box-shadow: 0 0 400px 40px rgb(156, 247, 146);
-  }
-
-  .footer-logo {
-    font-size: 20px;
-  }
-
-  .footer-reserve {
-    font-size: 14px;
-  }
   .footer-icons-container {
     gap: 20px;
   }
 
   .footer-icons {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
+    padding: 15px 25px;
+  }
+
+  .footer-icons svg {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -96,36 +70,18 @@
     gap: 40px;
   }
 
-  .footer-rights {
-    height: 20px;
-
-    gap: 20px;
-
-    padding: 0 10px;
-    font-weight: 400;
-  }
-  .footer-rights::after {
-    box-shadow: 0 0 400px 50px rgb(156, 247, 146);
-  }
-
-  .footer-logo {
-    font-size: 20px;
-  }
-
-  .footer-reserve {
-    font-size: 14px;
-  }
   .footer-icons-container {
     gap: 25px;
   }
 
   .footer-icons {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+    padding: 20px 40px;
   }
   .footer-icons svg {
-    height: 25px;
-    width: 25px;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -138,7 +94,7 @@
 
   .footer-details {
     padding: 0 40px;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .footer-icons-container {
@@ -148,10 +104,11 @@
   .footer-icons {
     height: 30px;
     width: 30px;
+    padding: 20px 35px;
   }
   .footer-icons svg {
-    height: 30px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -164,7 +121,7 @@
 
   .footer-details {
     padding: 0 40px;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .footer-icons-container {
@@ -174,6 +131,7 @@
   .footer-icons {
     height: 35px;
     width: 35px;
+    padding: 20px 45px;
   }
   .footer-icons svg {
     height: 35px;
@@ -198,12 +156,13 @@
   }
 
   .footer-icons {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
+    padding: 20px 50px;
   }
   .footer-icons svg {
-    height: 35px;
-    width: 35px;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -229,6 +188,13 @@
   display: flex;
   align-items: center;
   background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid rgb(39, 39, 39);
+  transition: all 1s;
+}
+
+.footer-icons:hover {
+  transform: scale(1.1);
 }
 
 .footer-details {
@@ -249,27 +215,12 @@
   padding: 50px 0;
 }
 
-.fiverr {
-  fill: rgb(25, 173, 25);
-  transition: ease-in 1s;
-}
-.github {
-  fill: black;
-  transition: ease-in 1s;
-}
-.instagram {
-  transition: ease-in 1s;
-  fill: url(#insta-gradient);
-}
-
-.linkedin {
-  transition: ease-in 1s;
-  fill: rgb(0, 119, 181);
+:where(a.github, a.fiverr, a.linkedin, a.instagram) {
+  fill: rgb(77, 77, 77);
 }
 
 :where(a.github, a.fiverr, a.linkedin, a.instagram):hover {
-  transition: ease-in 1s;
-  fill: white;
+  fill: rgb(236, 230, 230);
 }
 
 .footer-inner-details {

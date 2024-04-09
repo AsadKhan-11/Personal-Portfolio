@@ -96,7 +96,7 @@ function Footer() {
           <div className="footer-details">
             <div className="footer-inner-details">
               <p className="footer-number">Location</p>
-              <p className="footer-number">Lahore,Pakistan</p>
+              <p className="footer-number">Lahore, Pakistan</p>
             </div>
             <div className="footer-inner-details">
               <p className="footer-number">Phone</p>

@@ -33,6 +33,11 @@
     height: 50px;
     font-size: 20px;
   }
+
+  .sub-btn svg {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (max-width: 1199px) and (min-width: 1000px) {
@@ -71,6 +76,10 @@
     height: 50px;
     font-size: 18px;
   }
+  .sub-btn svg {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (max-width: 999px) and (min-width: 800px) {
@@ -105,9 +114,14 @@
   }
 
   .submit {
-    width: 150px;
+    width: 160px;
     height: 45px;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .sub-btn svg {
+    height: 18px;
+    width: 28px;
   }
 }
 
@@ -145,7 +159,12 @@
   .submit {
     width: 150px;
     height: 40px;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .sub-btn svg {
+    height: 16px;
+    width: 16px;
   }
 }
 
@@ -181,9 +200,14 @@
   }
 
   .submit {
-    width: 120px;
+    width: 130px;
     height: 40px;
     font-size: 14px;
+  }
+
+  .sub-btn svg {
+    height: 14px;
+    width: 14px;
   }
 }
 
@@ -221,7 +245,12 @@
   .submit {
     width: 120px;
     height: 35px;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .sub-btn svg {
+    height: 12px;
+    width: 12px;
   }
 }
 
@@ -270,8 +299,9 @@
   border-bottom: 1px solid rgb(98, 141, 28);
 }
 
-input {
-  color: white;
+input,
+.submit {
+  color: rgb(236, 230, 230);
   outline: none;
 }
 
@@ -294,6 +324,10 @@ input {
   border: none;
   transition: background 1s ease-in-out;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 .submit:hover {
   background: linear-gradient(to right, rgb(126, 180, 39), rgb(35, 155, 35));
@@ -305,4 +339,5 @@ input {
   display: flex;
   justify-content: center;
   border-radius: 25px;
+  align-items: center;
 }
