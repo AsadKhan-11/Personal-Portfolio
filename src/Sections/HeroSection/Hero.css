@@ -14,9 +14,8 @@
   .name-txt {
     margin-bottom: 20px;
   }
-
   .hero-section {
-    height: 300px;
+    display: none;
   }
 
   .hero-name {
@@ -44,6 +43,10 @@
 }
 
 @media (max-width: 800px) and (min-width: 600px) {
+  .hero-section {
+    display: none;
+  }
+
   .hero-container {
     max-width: 100%;
     height: 400px;

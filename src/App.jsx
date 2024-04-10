@@ -15,6 +15,7 @@ function App() {
       {" "}
       <div className="complete-container">
         <Sidebar />
+
         <section className="page-container">
           <Navbar />
           <Hero />

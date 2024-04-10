@@ -17,6 +17,9 @@
   .links {
     width: 60%;
   }
+  .navbar {
+    display: none;
+  }
 }
 
 @media (max-width: 599px) and (min-width: 350px) {
@@ -38,6 +41,9 @@
   .links {
     width: 60%;
   }
+  .navbar {
+    display: none;
+  }
 }
 @media (max-width: 999px) and (min-width: 600px) {
   .contact-btn {
@@ -56,6 +62,9 @@
   }
   .logo {
     font-size: 24px;
+  }
+  .navbar {
+    display: none;
   }
 }
 
@@ -80,6 +89,9 @@
   .logo {
     font-size: 30px;
   }
+  .navbar {
+    display: flex;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -99,13 +111,15 @@
   .logo {
     font-size: 30px;
   }
+  .navbar {
+    display: flex;
+  }
 }
 
 .navbar {
   height: 70px;
   max-width: 100%;
   background-color: transparent;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
@@ -186,10 +200,4 @@
 
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-@keyframes links {
-  0% {
-    opacity: 0;
-  }
 }

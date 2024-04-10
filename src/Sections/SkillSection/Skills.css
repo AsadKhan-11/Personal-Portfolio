@@ -203,7 +203,7 @@
   max-height: max-content;
   max-width: 100%;
   position: relative;
-  margin: 150px 0px;
+  margin: 100px 0px;
 }
 
 .skills-container {
@@ -259,13 +259,4 @@
 
 .skill-icons:hover {
   box-shadow: 0 0 15px 1px rgb(74, 252, 68);
-}
-
-@keyframes txt {
-  0% {
-    margin-right: -850px;
-  }
-  100% {
-    margin-left: 0px;
-  }
 }

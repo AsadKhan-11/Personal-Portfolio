@@ -25,6 +25,7 @@
 @media (max-width: 1199px) and (min-width: 1000px) {
   .complete-container {
     gap: 50px;
+    grid-template-columns: 0.3fr 0.7fr;
   }
 }
 @media (min-width: 1200px) {
@@ -34,5 +35,8 @@
 }
 
 .complete-container {
+  display: flex;
+}
+.container-top {
   display: flex;
 }

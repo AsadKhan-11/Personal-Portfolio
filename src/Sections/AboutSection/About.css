@@ -20,7 +20,12 @@
     flex-direction: column;
   }
   .about-name-desc {
-    font-size: 13px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .about-name {
+    font-size: 10px;
   }
 
   .about-info {
