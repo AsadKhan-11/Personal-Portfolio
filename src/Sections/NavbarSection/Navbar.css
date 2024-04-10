@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 350px) {
+@media (max-width: 799px) and (min-width: 350px) {
   .logo {
     display: none;
   }
@@ -45,50 +45,41 @@
     display: none;
   }
 }
-@media (max-width: 999px) and (min-width: 600px) {
+@media (max-width: 999px) and (min-width: 800px) {
   .contact-btn {
-    width: 110px;
-    height: 40px;
-    font-size: 18px;
-    text-align: center;
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
   }
 
   .nav-link {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .links {
     width: 40%;
   }
-  .logo {
-    font-size: 24px;
-  }
+
   .navbar {
-    display: none;
+    display: flex;
   }
 }
 
 @media (max-width: 1199px) and (min-width: 1000px) {
-  .logo {
-    font-size: 22px;
-  }
-
   .contact-btn {
     width: 130px;
     height: 45px;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .nav-link {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .links {
     width: 40%;
   }
-  .logo {
-    font-size: 30px;
-  }
+
   .navbar {
     display: flex;
   }
@@ -102,15 +93,13 @@
   }
 
   .nav-link {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .links {
     width: 35%;
   }
-  .logo {
-    font-size: 30px;
-  }
+
   .navbar {
     display: flex;
   }
@@ -125,14 +114,8 @@
   position: sticky;
   top: 0;
   gap: 10px;
-  padding: 0 20px;
-  z-index: 1;
-}
-.logo {
-  background: linear-gradient(90deg, rgb(92, 92, 92), rgb(163, 163, 163));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: cursive;
+  padding: 0 20px 0 0;
+  z-index: 4;
 }
 
 .links {
