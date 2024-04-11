@@ -14,12 +14,12 @@ function Sidebar() {
             </div>
           </div>
           <div className="side-info-2">
-            <div class="side-head-1">
+            <div className="side-head-1">
               <p className="side-specialize">Specialization:</p>
               <h2 className="side-desc">I am a front end developer</h2>
             </div>
 
-            <div class="side-head-2">
+            <div className="side-head-2">
               <p className="side-specialize">Based in:</p>
               <h2 className="side-desc">Lahore, Pakistan</h2>
             </div>
