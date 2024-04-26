@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import Navbar from "../NavbarSection/Navbar";
-
-import back from "../../images/Space.jpg";
+import image1 from "../../images/Preview.png";
 // import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Hero() {
