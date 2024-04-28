@@ -55,7 +55,10 @@ function Footer() {
               </div>
             </a>
 
-            <a href="www.linkedin.com/in/asad-khan-011h" className="linkedin">
+            <a
+              href="https://www.linkedin.com/in/asad-khan-011h/"
+              className="linkedin"
+            >
               <div className="footer-icons">
                 <svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>

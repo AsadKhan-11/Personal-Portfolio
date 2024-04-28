@@ -73,7 +73,7 @@ function Sidebar() {
               </a>
 
               <a
-                href="www.linkedin.com/in/asad-khan-011h"
+                href="https://www.linkedin.com/in/asad-khan-011h/"
                 className="side-linkedin"
               >
                 <div className="side-icons">
