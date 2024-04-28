@@ -36,7 +36,8 @@
     font-weight: 500;
     font-size: 8px;
   }
-  .home-work svg {
+  .home-work svg,
+  .cv svg {
     height: 15px;
     width: 15px;
   }
@@ -74,7 +75,8 @@
     font-weight: 500;
     font-size: 10px;
   }
-  .home-work svg {
+  .home-work svg,
+  .cv svg {
     height: 20px;
     width: 15px;
   }
@@ -87,6 +89,12 @@
 @media (max-width: 1000px) and (min-width: 800px) {
   .home-work {
     width: 110px;
+    height: 42px;
+    gap: 5px;
+    font-weight: 500;
+  }
+  .cv {
+    width: 130px;
     height: 42px;
     gap: 5px;
     font-weight: 500;
@@ -111,7 +119,8 @@
     height: 30px;
     font-weight: 500;
   }
-  .home-work svg {
+  .home-work svg,
+  .cv svg {
     height: 40px;
     width: 20px;
   }
@@ -128,6 +137,12 @@
 
   .home-work {
     width: 110px;
+    height: 40px;
+    gap: 5px;
+    font-weight: 600;
+  }
+  .cv {
+    width: 130px;
     height: 40px;
     gap: 5px;
     font-weight: 600;
@@ -152,7 +167,8 @@
     height: 30px;
     font-weight: 600;
   }
-  .home-work svg {
+  .home-work svg,
+  .cv svg {
     height: 40px;
     width: 20px;
   }
@@ -168,6 +184,14 @@
 
   .home-work {
     width: 120px;
+    height: 45px;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .cv {
+    width: 140px;
     height: 45px;
     gap: 5px;
     font-weight: 600;
@@ -192,7 +216,9 @@
     font-weight: 600;
     font-size: 16px;
   }
-  .home-work svg {
+  .home-work svg,
+  .cv svg,
+  .cv svg {
     height: 40px;
     width: 20px;
   }
@@ -218,7 +244,8 @@
   flex-direction: column;
   gap: 20px;
 }
-.home-work {
+.home-work,
+.cv {
   border: 1px solid rgb(236, 230, 230);
   display: flex;
   align-items: center;
@@ -231,12 +258,18 @@
   transition: all 1s;
 }
 
-.home-work-btn {
-  text-decoration: none;
+:where(.home-work, .cv):hover {
+  background-color: rgb(75, 74, 74);
 }
 
-.home-work:hover {
-  background-color: rgb(75, 74, 74);
+.hero-btns {
+  display: flex;
+  gap: 50px;
+}
+
+.cv-btn,
+.home-work-btn {
+  text-decoration: none;
 }
 
 .hero-section {

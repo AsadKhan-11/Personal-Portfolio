@@ -16,7 +16,7 @@ function Sidebar() {
           <div className="side-info-2">
             <div className="side-head-1">
               <p className="side-specialize">Specialization:</p>
-              <h2 className="side-desc">I am a front end developer</h2>
+              <h2 className="side-desc">Front-End Developer</h2>
             </div>
 
             <div className="side-head-2">

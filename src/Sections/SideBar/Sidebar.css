@@ -325,6 +325,10 @@
   margin: 20px 0;
 }
 
+.side-name {
+  text-align: center;
+}
+
 .side-card {
   display: flex;
   flex-direction: column;
