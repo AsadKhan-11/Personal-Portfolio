@@ -73,7 +73,6 @@ function Contact() {
                   placeholder="Last Name"
                   type="txt"
                   className="contact-info"
-                  required
                   onChange={changeName}
                   value={details.lastname}
                 />
@@ -99,7 +98,6 @@ function Contact() {
                   type="tel"
                   className="contact-info"
                   placeholder="Phone Number"
-                  required
                   onChange={changeName}
                   value={details.numfrom}
                 />
