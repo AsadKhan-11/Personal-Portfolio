@@ -17,10 +17,16 @@ function Contact() {
     emailjs
       .sendForm(service, template, form)
       .then(() => {
-        alert("Email sent successfully");
+        setTimeout(() => {
+          alert("Email sent successfully");
+          window.location.reload();
+        }, 3000);
       })
       .catch((error) => {
-        alert("Error sending email");
+        setTimeout(() => {
+          alert("Error sending email");
+          window.location.reload();
+        }, 3000);
       });
   };
 
