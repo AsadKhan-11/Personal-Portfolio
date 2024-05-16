@@ -3,6 +3,9 @@ import "./Contact.css";
 import emailjs, { sendForm } from "@emailjs/browser";
 
 function Contact() {
+  const [success, setSuccess] = useState(false);
+  const [failed, setFailed] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -17,14 +20,16 @@ function Contact() {
     emailjs
       .sendForm(service, template, form)
       .then(() => {
+        setSuccess(true);
         setTimeout(() => {
-          alert("Email sent successfully");
+          setSuccess(false);
           window.location.reload();
         }, 3000);
       })
       .catch((error) => {
+        setFailed(true);
         setTimeout(() => {
-          alert("Error sending email");
+          setFailed(false);
           window.location.reload();
         }, 3000);
       });
@@ -109,7 +114,7 @@ function Contact() {
                 />
               </div>
             </div>
-            <div className="full-first">
+            <div className="full-first contact-message">
               <input
                 id="message"
                 name="message"
@@ -119,6 +124,10 @@ function Contact() {
                 onChange={changeName}
                 value={details.message}
               />
+              {success && (
+                <p className="contact-success">Email sent successfully</p>
+              )}{" "}
+              {failed && <p className="contact-error">Email falied</p>}
             </div>
             <div className="sub-btn">
               <button type="submit" className="submit ">

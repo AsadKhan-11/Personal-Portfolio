@@ -316,6 +316,7 @@ input,
   flex-direction: column;
   gap: 10px;
   width: 100%;
+  position: relative;
 }
 
 .submit {
@@ -340,4 +341,10 @@ input,
   justify-content: center;
   border-radius: 25px;
   align-items: center;
+}
+
+.contact-success {
+  position: absolute;
+  top: 60px;
+  color: rgb(3, 148, 3);
 }
