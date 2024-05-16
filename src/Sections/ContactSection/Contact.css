@@ -348,3 +348,9 @@ input,
   top: 60px;
   color: rgb(3, 148, 3);
 }
+
+.contact-success {
+  position: absolute;
+  top: 60px;
+  color: red;
+}
