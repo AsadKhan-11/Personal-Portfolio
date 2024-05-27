@@ -69,24 +69,23 @@ function Projects() {
             </h1>
           </div>
           <div className="slider">
-            <button onClick={prevImg} id="prev" className="arr-btn prev-btn">
+            {/* <button onClick={prevImg} id="prev" className="arr-btn prev-btn">
               &larr;
             </button>
             <button onClick={nextImg} id="next" className="arr-btn next-btn">
               &rarr;
-            </button>
-            {data.map((d, num) => (
-              <div
-                key={num}
-                className={num === index ? " slide slide-active" : "slide"}
-              >
-                <div className="project-desc">
-                  <img src={d.img} className="project-img " />
-                  <p className="project-content">{d.content} </p>
+            </button> */}
+            <div className="slide-wrap">
+              {data.map((d, num) => (
+                <div key={num} className="slide-active">
+                  <div className="project-desc">
+                    <img src={d.img} className="project-img " />
+                    <p className="project-content">{d.content} </p>
+                  </div>
+                  <h3 className="project-name">{d.name}</h3>
                 </div>
-                <h3 className="project-name">{d.name}</h3>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
