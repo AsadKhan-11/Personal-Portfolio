@@ -87,6 +87,7 @@ function Projects() {
               ))}
             </div>
           </div>
+          <input type="range" id="scrollbar" min="0" max="100" value="0" />
         </div>
       </section>
     </>
