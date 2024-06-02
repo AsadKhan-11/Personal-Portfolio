@@ -320,6 +320,7 @@
   max-width: 100%;
   max-height: max-content;
   position: relative;
+  margin-right: 40px;
 }
 .about-container {
   position: relative;
@@ -333,7 +334,7 @@
   width: 100%;
   border-radius: 20px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-header {

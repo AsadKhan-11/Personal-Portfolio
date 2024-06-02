@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Projects.css";
 import youtube from "../../projects/youtube.png";
 import player from "../../projects/player.png";
@@ -46,18 +46,6 @@ const data = [
 ];
 
 function Projects() {
-  const [index, setIndex] = useState(0);
-
-  let nextImg = () => {
-    const num = (index + 1) % data.length;
-    setIndex(num);
-  };
-
-  let prevImg = () => {
-    const num = (index - 1 + data.length) % data.length;
-    setIndex(num);
-  };
-
   return (
     <>
       <section className="project" id="projects">
@@ -69,12 +57,6 @@ function Projects() {
             </h1>
           </div>
           <div className="slider">
-            {/* <button onClick={prevImg} id="prev" className="arr-btn prev-btn">
-              &larr;
-            </button>
-            <button onClick={nextImg} id="next" className="arr-btn next-btn">
-              &rarr;
-            </button> */}
             <div className="slide-wrap">
               {data.map((d, num) => (
                 <div key={num} className="slide-active">
@@ -87,7 +69,6 @@ function Projects() {
               ))}
             </div>
           </div>
-          <input type="range" id="scrollbar" min="0" max="100" value="0" />
         </div>
       </section>
     </>

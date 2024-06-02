@@ -356,6 +356,7 @@
   justify-items: stretch;
   align-items: start;
   justify-content: center;
+
   animation: linear infinite 30s sliding;
 }
 
@@ -422,11 +423,6 @@
   top: 30px;
   left: 10px;
   right: 10px;
-}
-#scrollbar {
-  width: 500px;
-  height: 10px;
-  background-color: black;
 }
 
 @keyframes sliding {
