@@ -108,14 +108,20 @@
 .navbar {
   height: 70px;
   max-width: 100%;
-  background-color: transparent;
   align-items: center;
   justify-content: space-between;
+  background: transparent;
+  transition: all 1s ease;
   position: sticky;
   top: 0;
   gap: 10px;
   padding: 0 20px 0 0;
   z-index: 4;
+  border-radius: 50px;
+}
+
+.navbar.scrolled {
+  background-color: rgb(51, 51, 51);
 }
 
 .links {
