@@ -1,8 +1,20 @@
-# React + Vite
+# My Markdown Document
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Markdown document. Below is a list of sections you can navigate to:
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Technologies Used](#installation)
+- [Setup](#usage)
+
+## Introduction
+
+This portfolio showcases my projects, skills, and experience. Feel free to explore and get in touch if you have any questions or opportunities.
+
+## Technologies used
+
+- React.js
+- Vite
+
+## Setup
