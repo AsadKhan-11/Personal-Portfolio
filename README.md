@@ -18,3 +18,20 @@ This portfolio showcases my projects, skills, and experience. Feel free to explo
 - Vite
 
 ## Setup
+## Clone the repository:
+
+```html
+git clone https://github.com/AsadKhan-11/Personal-Portfolio.git
+
+```
+
+## Install Dependencies
+```html
+
+npm install
+```
+## Start the Server
+```html
+
+npm run dev
+```
