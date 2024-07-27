@@ -127,7 +127,7 @@ function Contact() {
               {success && (
                 <p className="contact-success">Email sent successfully</p>
               )}{" "}
-              {failed && <p className="contact-error">Email falied</p>}
+              {failed && <p className="contact-error">Email failed</p>}
             </div>
             <div className="sub-btn">
               <button type="submit" className="submit ">
