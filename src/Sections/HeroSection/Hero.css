@@ -59,7 +59,7 @@
 
   .hero-name {
     font-size: 30px;
-    width: 340px;
+    width: 100%;
     text-align: start;
   }
   .home-meet {
@@ -110,7 +110,8 @@
 
   .hero-name {
     font-size: 42px;
-    width: 400px;
+
+    width: 100%;
     text-align: start;
     line-height: 1.4;
   }
@@ -231,6 +232,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .home-meet {

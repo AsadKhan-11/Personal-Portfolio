@@ -14,23 +14,23 @@
 @media (max-width: 799px) and (min-width: 600px) {
   .complete-container {
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
   }
 }
 @media (max-width: 999px) and (min-width: 800px) {
   .complete-container {
-    gap: 35px;
+    gap: 300px;
   }
 }
 @media (max-width: 1199px) and (min-width: 1000px) {
   .complete-container {
-    gap: 50px;
+    gap: 150px;
     grid-template-columns: 0.3fr 0.7fr;
   }
 }
 @media (min-width: 1200px) {
   .complete-container {
-    gap: 70px;
+    gap: 170px;
   }
 }
 
