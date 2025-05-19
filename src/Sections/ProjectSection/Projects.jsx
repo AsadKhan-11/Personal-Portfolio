@@ -6,6 +6,7 @@ import calculator from "../../projects/calculator.png";
 import news from "../../projects/news.png";
 import omnifood from "../../projects/omnifood.png";
 import weather from "../../projects/weather.png";
+import kafe from "../../projects/kafe.png";
 
 const data = [
   {
@@ -15,10 +16,10 @@ const data = [
       "My news app built with React is a comprehensive platform with the latest headlines and stories from around the world. The app provides easy access to news articles across various categories such as business, technology, sports, entertainment, and more. Powered by a robust news API, the app dynamically fetches and displays real-time news content, complete with headlines, summaries, and images.",
   },
   {
-    name: "Weather Forecaster",
-    img: `${weather}`,
+    name: "KAFE",
+    img: `${kafe}`,
     content:
-      "My weather forecasting app is a simple yet effective tool designed to provide up-to-date weather information at your fingertips. Users can enter the name of a city in the search bar, and the app fetches real-time weather data using a weather API. The weather information includes temperature, humidity, wind speed, and a description of the weather conditions.",
+      "Kafe is built with React is a sleek and interactive platform designed to showcase a modern café experience. The site features a beautifully structured layout with dedicated sections like menu items. The project focuses on user-friendly UI, stylish visuals, and a seamless browsing experience—ideal for both desktop and mobile users. It demonstrates strong front-end skills and attention to aesthetic detail.",
   },
   {
     name: "Youtube Clone",
@@ -61,7 +62,9 @@ function Projects() {
               {data.map((d, num) => (
                 <div key={num} className="slide-active">
                   <div className="project-desc">
-                    <img src={d.img} className="project-img " />
+                    <div className="project-img-container">
+                      <img src={d.img} className="project-img " />
+                    </div>
                     <p className="project-content">{d.content} </p>
                   </div>
                   <h3 className="project-name">{d.name}</h3>
