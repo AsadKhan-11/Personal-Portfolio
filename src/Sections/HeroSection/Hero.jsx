@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Hero.css";
 import Navbar from "../NavbarSection/Navbar";
 import image1 from "../../images/Preview.png";
-import cv from "../../images/AsadKhanCV.pdf";
+import cv from "../../images/Asad-Mern-Resume.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
