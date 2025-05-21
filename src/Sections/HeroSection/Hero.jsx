@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 function Hero() {
   const [name, setName] = useState("Asad Khan");
 
-  const [profession, setProfession] = useState("Front End Developer");
+  const [profession, setProfession] = useState("MERN Stack Developer");
 
   return (
     <>

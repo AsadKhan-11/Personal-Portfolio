@@ -11,11 +11,12 @@ function Skills() {
             <span className="skill-sec-header">MY SKILLS</span>
           </h1>
           <p className="skill-txt">
-            I'm a front-end developer skilled in creating responsive websites
-            using HTML, CSS, JavaScript, and React. I turn design ideas into
-            user-friendly interfaces, ensuring they work well on any device.
-            With attention to detail and a love for the latest trends, I bring
-            both creativity and technical know-how to my projects.
+            I'm a full stack web developer skilled in building responsive and
+            dynamic websites using HTML, CSS, JavaScript, React, Node.js, and
+            MongoDB. I turn design ideas into user-friendly interfaces and
+            connect them with powerful back-end functionality, ensuring
+            everything works smoothly across all devices. With attention to
+            detail and a passion for modern web trends.
           </p>
 
           <div className="skills-box">

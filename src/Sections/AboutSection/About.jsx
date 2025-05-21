@@ -28,13 +28,15 @@ function About() {
 
           <div className="about-txt-container">
             <p className="about-txt">
-              Hello there! I'm Asad Khan, a front end web developer based in
-              Lahore, Pakistan. With a passion for web development, I specialize
-              in developing user-friendly digital experiences. I'm dedicated to
-              delivering high-quality web development services. As a freelance
-              web developer, I offer personalized solutions modified to your
-              needs. My expertise extend to HTML, CSS, JavaScript, React, and
-              WordPress, ensuring that your project is in capable hands.
+              Hello there! I'm Asad Khan, a full stack web developer based in
+              Lahore, Pakistan. With a passion for building complete web
+              solutions, I specialize in developing user-friendly and efficient
+              digital experiences from front end to back end. I'm dedicated to
+              delivering high-quality, scalable web development services. As a
+              freelance developer, I offer personalized solutions tailored to
+              your needs. My expertise extends across HTML, CSS, JavaScript,
+              React, Node.js, Express, and MongoDB. Ensuring your project is in
+              capable hands from start to finish.
             </p>
 
             {/* <div className="about-side-box">
